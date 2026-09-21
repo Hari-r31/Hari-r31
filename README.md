@@ -57,7 +57,7 @@ I'm **Hari Sai Kumar Thatholu**, a Software Engineer at **Conflowence** based in
 </td>
 <td width="35%" align="center" valign="middle">
 
-<img src="https://skillicons.dev/icons?i=py,fastapi,nodejs,django,postgres,supabase,docker,kubernetes,aws,azure,githubactions,spark,airflow,react,flutter,ts,cpp,arduino,git&perline=6&theme=dark" width="100%" alt="Tech stack">
+<img src="https://skillicons.dev/icons?i=py,fastapi,nodejs,django,postgres,supabase,redis,mongodb,firebase,docker,kubernetes,aws,azure,githubactions,spark,airflow,react,nextjs,tailwind,flutter,ts,cpp,arduino,git&perline=6&theme=dark" width="100%" alt="Tech stack">
 
 </td>
 </tr>
@@ -97,15 +97,15 @@ Freelance engagement leading delivery of software projects end to end, from prod
 
 | Area | Technologies |
 | --- | --- |
-| **Languages** | Python · TypeScript · JavaScript · C++ · HTML |
-| **Backend & APIs** | FastAPI · Node.js · Django · Django REST Framework · REST APIs · JSON Schema · Authentication & authorization |
-| **AI & LLM** | OpenAI API · Prompt workflows · Structured LLM responses · LangGraph · AI image classification (leaf-disease detection) |
+| **Languages** | Python · TypeScript · JavaScript · Dart · C++ · SQL · HTML · CSS |
+| **Backend & APIs** | FastAPI · Node.js · Express.js · Django · Django REST Framework · REST APIs · OpenAPI / Swagger · Pydantic · SQLAlchemy · Microservices · WebSockets · JWT / OAuth2 · Authentication & authorization · JSON Schema |
+| **AI & LLM** | OpenAI API · LLM integrations · Prompt engineering · Structured LLM responses · LangGraph · AI agents & workflows · AI image classification (leaf-disease detection) |
 | **Data Engineering** | Data ingestion pipelines · Apache Spark · Airflow (DAGs) · AWS S3 Tables · Apache Iceberg · XML / fixed-width / delimited / Excel parsing |
-| **Databases** | PostgreSQL (Supabase) · MySQL · Schema design · Row-level security (RLS) |
-| **Cloud & DevOps** | Git · GitHub · Azure Functions · AWS S3 · Docker · Kubernetes · GitHub Actions (CI/CD) · Vercel · Render · OpenBao / HashiCorp Vault |
-| **Frontend** | React.js · TypeScript · HTML |
-| **Mobile** | React Native · Flutter · Mobile application development |
-| **Testing** | Pytest · CI/CD pipelines · QA |
+| **Databases** | PostgreSQL (Supabase) · MySQL · MongoDB · Redis · Firebase (Firestore / Realtime Database) · Schema design · Row-level security (RLS) |
+| **Cloud & DevOps** | Git · GitHub · Azure Functions · AWS S3 · Docker · Kubernetes · GitHub Actions (CI/CD) · Linux · Nginx · Vercel · Render · Firebase Hosting · OpenBao / HashiCorp Vault |
+| **Frontend** | React.js · Next.js · TypeScript · Tailwind CSS · HTML5 · CSS3 · Responsive design |
+| **Mobile** | React Native · Expo · Flutter · Dart · Firebase (Auth, Push Notifications) · Mobile application development |
+| **Testing & Tools** | Pytest · Postman · CI/CD pipelines · QA · Code reviews · VS Code |
 | **IoT & Embedded** | ESP32 · NodeMCU (ESP8266) · Arduino IDE · Blynk · ThingSpeak · Twilio · Sensors · VLSI |
 | **Leadership & Process** | Solution architecture · Project management · Mentoring · Code reviews · Sprint planning |
 
