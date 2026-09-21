@@ -1,13 +1,13 @@
-<div align="left">
+<div align="center">
 
-<img align="right" src="./img.png" width="250" hspace="15" alt="Hari Sai Kumar Thatholu">
+<img src="./assets/profile.jpg" width="190" alt="Hari Sai Kumar Thatholu">
 
 <h1>Hari Sai Kumar Thatholu</h1>
 
-<h3>Software Engineer · Full-Stack & Backend · AI Systems · Solution Architecture</h3>
+<h3>Software Engineer · Full-Stack & Backend<br>AI Systems · Solution Architecture</h3>
 
 <a href="https://github.com/Hari-r31">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=2F81F7&center=false&vCenter=true&width=520&lines=Requirements+%E2%86%92+Architecture+%E2%86%92+Production;Full-Stack+%26+Backend+Engineering;AI+%26+LLM+Integrations;SaaS%2C+E-commerce+%26+Internal+Tools" alt="Typing SVG">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=2800&pause=900&color=2F81F7&center=true&vCenter=true&width=380&lines=Requirements+%E2%86%92+Architecture+%E2%86%92+Production;Full-Stack+%26+Backend+Engineering;AI+%26+LLM+Integrations;SaaS%2C+E-commerce+%26+Internal+Tools" alt="Typing SVG">
 </a>
 
 <p>
@@ -32,20 +32,21 @@ I design and build production-ready web applications, backend systems, SaaS plat
 
 <sub>📍 Based in India · Available for remote projects</sub>
 
-<br clear="both">
-
 </div>
 
 <div align="center">
 
 <h3><i>I don't just build features. I take ownership of the system from requirement to production.</i></h3>
 
-<img src="https://img.shields.io/badge/11-LIVE%20PRODUCTS%20%26%20CLIENT%20SITES-161B22?style=for-the-badge&labelColor=2F81F7&color=161B22" alt="11 live products and client sites">
-<img src="https://img.shields.io/badge/~40-ENGINEERS%20%26%20STUDENTS%20MENTORED-161B22?style=for-the-badge&labelColor=2F81F7&color=161B22" alt="About 40 engineers and students mentored">
-<br>
-<img src="https://img.shields.io/badge/3-COUNTRIES%3A%20INDIA%20%C2%B7%20USA%20%C2%B7%20AUSTRALIA-161B22?style=for-the-badge&labelColor=2F81F7&color=161B22" alt="3 countries: India, USA, Australia">
-<img src="https://img.shields.io/badge/PRODUCTION-CI%2FCD%20%26%20MONITORING-161B22?style=for-the-badge&labelColor=2F81F7&color=161B22" alt="Production deployments, CI/CD and monitoring">
-<img src="https://img.shields.io/badge/2-PUBLISHED%20RESEARCH%20PAPERS-161B22?style=for-the-badge&labelColor=2F81F7&color=161B22" alt="2 published research papers">
+<table width="100%">
+<tr>
+<td align="center" width="20%"><h3>11</h3><sub>Live products & client sites</sub></td>
+<td align="center" width="20%"><h3>~40</h3><sub>Engineers & students mentored</sub></td>
+<td align="center" width="20%"><h3>3</h3><sub>Countries: India, USA, Australia</sub></td>
+<td align="center" width="20%"><h3>Prod</h3><sub>Deployments, CI/CD & monitoring</sub></td>
+<td align="center" width="20%"><h3>2</h3><sub>Published research papers</sub></td>
+</tr>
+</table>
 
 </div>
 
@@ -79,14 +80,22 @@ I design and build production-ready web applications, backend systems, SaaS plat
 **Also experienced with:** Django · Node.js · Angular · Flutter · MongoDB · Firebase · Kubernetes · Nginx · Cloudflare · and more, see the [full technology profile](#full-technology-profile) below.
 
 <div align="center">
-<table>
-<tr><td><b>Backend</b></td><td><img src="https://skillicons.dev/icons?i=py,fastapi,django,nodejs&theme=dark" alt="py,fastapi,django,nodejs"></td></tr>
-<tr><td><b>Frontend & mobile</b></td><td><img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,angular,flutter&theme=dark" alt="ts,react,nextjs,tailwind,angular,flutter"></td></tr>
-<tr><td><b>Data & databases</b></td><td><img src="https://skillicons.dev/icons?i=postgres,supabase,redis,mongodb,firebase&theme=dark" alt="postgres,supabase,redis,mongodb,firebase">&nbsp;<img src="./assets/icons/spark.svg" width="48" height="48" alt="Apache Spark">&nbsp;<img src="./assets/icons/airflow.svg" width="48" height="48" alt="Apache Airflow"></td></tr>
-<tr><td><b>Cloud & DevOps</b></td><td><img src="https://skillicons.dev/icons?i=docker,kubernetes,nginx,cloudflare,aws,azure,githubactions,linux,git&theme=dark" alt="docker,kubernetes,nginx,cloudflare,aws,azure,githubactions,linux,git"></td></tr>
-<tr><td><b>Observability</b></td><td><img src="https://skillicons.dev/icons?i=grafana,prometheus,sentry&theme=dark" alt="grafana,prometheus,sentry"></td></tr>
-<tr><td><b>Embedded & IoT</b></td><td><img src="https://skillicons.dev/icons?i=arduino&theme=dark" alt="arduino"></td></tr>
-</table>
+
+<b>Backend</b><br>
+<img src="https://skillicons.dev/icons?i=py,fastapi,django,nodejs&theme=dark&perline=5" alt="py,fastapi,django,nodejs">
+
+<b>Frontend & mobile</b><br>
+<img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,angular,flutter&theme=dark&perline=5" alt="ts,react,nextjs,tailwind,angular,flutter">
+
+<b>Data & databases</b><br>
+<img src="https://skillicons.dev/icons?i=postgres,supabase,redis,mongodb,firebase&theme=dark&perline=5" alt="postgres,supabase,redis,mongodb,firebase"><br><img src="./assets/icons/spark.svg" width="48" height="48" alt="Apache Spark">&nbsp;<img src="./assets/icons/airflow.svg" width="48" height="48" alt="Apache Airflow">
+
+<b>Cloud & DevOps</b><br>
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,nginx,cloudflare,aws,azure,githubactions,linux,git&theme=dark&perline=5" alt="docker,kubernetes,nginx,cloudflare,aws,azure,githubactions,linux,git">
+
+<b>Observability & embedded</b><br>
+<img src="https://skillicons.dev/icons?i=grafana,prometheus,sentry,arduino&theme=dark&perline=5" alt="grafana,prometheus,sentry,arduino">
+
 </div>
 
 ---
@@ -128,12 +137,10 @@ flowchart TD
 
 **Problem → Decision → Implementation → Result**
 
-| | |
-| --- | --- |
-| **Problem** | Multiple customers could try to buy the same limited-stock piece at the same time. |
-| **Decision** | Introduce short-lived inventory reservations with expiry and release. |
-| **Implementation** | A database-backed reservation flow, with worker-based expiry handling. |
-| **Result** | Overselling is prevented while checkout stays responsive. |
+- **Problem:** Multiple customers could try to buy the same limited-stock piece at the same time.
+- **Decision:** Introduce short-lived inventory reservations with expiry and release.
+- **Implementation:** A database-backed reservation flow, with worker-based expiry handling.
+- **Result:** Overselling is prevented while checkout stays responsive.
 
 **Result.** A production-ready e-commerce platform with the business workflows needed to sell and manage jewellery online.
 
@@ -205,14 +212,12 @@ flowchart TD
 
 **Engineering decisions**
 
-| Problem | Decision |
-| --- | --- |
-| One tenant must never see another's data | Four independent isolation layers, with 404 instead of 403 across tenants |
-| A stolen refresh token stays valuable | Rotation with reuse detection: replaying a used token revokes the whole session |
-| List endpoints slow down as tables grow | Keyset cursor pagination and no per-page total counts |
-| A cache outage must not become an application outage | Every Redis read and write fails open and can be rebuilt from PostgreSQL |
-| Rapid double-clicks sent duplicate mutations | A synchronous ref guard on top of `isPending`, found by an end-to-end test and applied across the app |
-| Layering erodes over time | Import contracts checked in CI, so a violation fails the build |
+- **One tenant must never see another's data** → Four independent isolation layers, with 404 instead of 403 across tenants
+- **A stolen refresh token stays valuable** → Rotation with reuse detection: replaying a used token revokes the whole session
+- **List endpoints slow down as tables grow** → Keyset cursor pagination and no per-page total counts
+- **A cache outage must not become an application outage** → Every Redis read and write fails open and can be rebuilt from PostgreSQL
+- **Rapid double-clicks sent duplicate mutations** → A synchronous ref guard on top of `isPending`, found by an end-to-end test and applied across the app
+- **Layering erodes over time** → Import contracts checked in CI, so a violation fails the build
 
 **Quality & delivery.** CI gates on linting, formatting, import-layer contracts, type checking, backend tests against real PostgreSQL and Redis, frontend unit tests, and a Playwright end-to-end suite of over 100 tests. Migrations run as a separate one-shot job, are checked for drift with `alembic check`, and are round-trip tested on every change. Deployed on Render with Supabase PostgreSQL through GitHub Actions.
 
@@ -271,57 +276,52 @@ flowchart TD
 
 ### Products & platforms
 
-| Project | What it is | Stack |
-| --- | --- | --- |
-| **[Tournament365](https://tournament365.in/)** | SaaS-based ERP for tournament management, self-hosted on Ubuntu / Nginx | Angular · Bootstrap · Nginx |
-| **[AI Plant Doctor](https://github.com/Hari-r31/smart-plant-doctor)** | End-to-end smart agriculture: ESP32 with DHT11, soil-moisture and LDR sensors sends data to Supabase via REST; FastAPI runs AI leaf-disease detection; React dashboard shows live stats, image uploads, alerts and disease history | ESP32 · FastAPI · React · Supabase (storage + RLS) · TensorFlow / Keras · Vercel · Render |
+- **[Tournament365](https://tournament365.in/)**: SaaS-based ERP for tournament management, self-hosted on Ubuntu / Nginx<br>*Stack:* Angular · Bootstrap · Nginx
+- **[AI Plant Doctor](https://github.com/Hari-r31/smart-plant-doctor)**: End-to-end smart agriculture: ESP32 with DHT11, soil-moisture and LDR sensors sends data to Supabase via REST; FastAPI runs AI leaf-disease detection; React dashboard shows live stats, image uploads, alerts and disease history<br>*Stack:* ESP32 · FastAPI · React · Supabase (storage + RLS) · TensorFlow / Keras · Vercel · Render
 
-```text
-ESP32 sensors ──REST──▶ Supabase ◀── FastAPI (AI leaf-disease detection) ──▶ React dashboard
+```mermaid
+flowchart TD
+    S[ESP32 sensors] -->|REST| D[(Supabase)]
+    A[FastAPI: AI leaf-disease detection] <--> D
+    D --> R[React dashboard]
 ```
 
 ### Client & business websites
 
-| Site | About | Stack |
-| --- | --- | --- |
-| **[VPD Technologies](https://vpdtechnologies.com/)** | Company landing page: premium software engineering & web architecture | React · Vite · Tailwind CSS · Vercel |
-| **[M&A Construction Services LLC](https://maconstruction-llc.com/)** 🇺🇸 | Construction estimating, BIM and project controls | React · Vite · Hostinger |
-| **[TechGigz Australia](https://www.techgigz.com.au/)** 🇦🇺 | Custom software development & IT solutions, Perth | React · Vite · Vercel |
-| **[MMP Consultants](https://www.mmpconsultants.com.au/)** 🇦🇺 | Consulting & project support services | React · Vite · Vercel |
-| **[N Farms Staycation](https://nfarms.netlify.app/)** 🇮🇳 | Luxury farmstay resort in Moinabad, Telangana | Next.js · Tailwind CSS · Razorpay · Netlify |
-| **[Prolift Badminton Academy](https://proliftacademy.netlify.app/)** 🇮🇳 | Training academy in Bangalore | Next.js · Tailwind CSS · Cloudinary · Netlify |
-| **[Sri Jyothi Travels](https://sri-jyothi-travels.vercel.app/)** 🇮🇳 | Taxi service in Palakollu, Andhra Pradesh: airport and railway-station transfers, local rides and outstation trips, in Telugu, Hindi and English | React · Vite · TanStack · Lucide · Vercel |
+- **[VPD Technologies](https://vpdtechnologies.com/)**: Company landing page: premium software engineering & web architecture<br>*Stack:* React · Vite · Tailwind CSS · Vercel
+- **[M&A Construction Services LLC](https://maconstruction-llc.com/)** 🇺🇸: Construction estimating, BIM and project controls<br>*Stack:* React · Vite · Hostinger
+- **[TechGigz Australia](https://www.techgigz.com.au/)** 🇦🇺: Custom software development & IT solutions, Perth<br>*Stack:* React · Vite · Vercel
+- **[MMP Consultants](https://www.mmpconsultants.com.au/)** 🇦🇺: Consulting & project support services<br>*Stack:* React · Vite · Vercel
+- **[N Farms Staycation](https://nfarms.netlify.app/)** 🇮🇳: Luxury farmstay resort in Moinabad, Telangana<br>*Stack:* Next.js · Tailwind CSS · Razorpay · Netlify
+- **[Prolift Badminton Academy](https://proliftacademy.netlify.app/)** 🇮🇳: Training academy in Bangalore<br>*Stack:* Next.js · Tailwind CSS · Cloudinary · Netlify
+- **[Sri Jyothi Travels](https://sri-jyothi-travels.vercel.app/)** 🇮🇳: Taxi service in Palakollu, Andhra Pradesh: airport and railway-station transfers, local rides and outstation trips, in Telugu, Hindi and English<br>*Stack:* React · Vite · TanStack · Lucide · Vercel
 
 ### Archive: student projects & mentorship
 
 B.Tech projects built for students as a freelancer, plus mentoring.
 
-| Project | Details | Stack | Links |
-| --- | --- | --- | --- |
-| **IoT Fish Pond Monitoring & Production Enhancement** *(Jan – May 2024)* | Real-time water-quality monitoring (temperature, pH, dissolved oxygen, turbidity, ammonia) with Blynk, ThingSpeak and Twilio SMS alerts, plus remote control of aerators, feeders and pumps | C++ · Arduino IDE · Blynk · ThingSpeak · Twilio | [Repo](https://github.com/Hari-r31/IOT-Based-Fish-Pond-Monitoring-its-Production-Enhancement-System) |
-| **NodeMCU WiFi-Controlled Car** *(Feb – Mar 2023)* | NodeMCU (ESP8266) and L298N motor driver, controlled through the Blynk app | C++ · Arduino IDE · Blynk | [Repo](https://github.com/Hari-r31/Node-MCU-Based-Mobile-Controlled-Car-Through-WIFI) |
-| **BMS Dashboard & Firmware** | Web monitoring dashboard paired with embedded device firmware | TypeScript · C++ · C | [Dashboard](https://github.com/Hari-r31/bms-dashboard) · [Firmware](https://github.com/Hari-r31/BMS_Firmware) |
-| **AI Smart Traffic System** | Simulated AI traffic-signal control: virtual IoT sensors over MQTT, reinforcement learning (Q-learning), multi-intersection coordination, weather / pedestrian / emergency handling and a Node-RED dashboard | Python · MQTT · Reinforcement Learning · Node-RED | [Repo](https://github.com/Hari-r31/ai_smart_traffic_system) |
-| **Conversational AI FAQ Bot** | Command-line bot that answers questions from a predefined FAQ set using a LangGraph flow | Python · LangGraph | [Repo](https://github.com/Hari-r31/Conversational-AI-Simple-FAQ-Bot-LangGraph-) |
-| **VIET Campus Kiosk** (Navigation Bot) | Multilingual (English / Telugu / Hindi) touch-screen kiosk for VIET: campus navigation, fee information, a voice-enabled Gemini AI assistant and QR handoff of directions to a phone | React · TypeScript · Vite · Tailwind CSS · Google Gemini · Python · Docker | [Frontend](https://github.com/Hari-r31/VIET_Navigation_Bot) · [Backend](https://github.com/Hari-r31/VIET_Navigation_Bot_backend) · [Live](https://viet-navigation-bot.vercel.app) |
+- **IoT Fish Pond Monitoring & Production Enhancement** *(Jan – May 2024)*: Real-time water-quality monitoring (temperature, pH, dissolved oxygen, turbidity, ammonia) with Blynk, ThingSpeak and Twilio SMS alerts, plus remote control of aerators, feeders and pumps<br>*Stack:* C++ · Arduino IDE · Blynk · ThingSpeak · Twilio<br>[Repo](https://github.com/Hari-r31/IOT-Based-Fish-Pond-Monitoring-its-Production-Enhancement-System)
+- **NodeMCU WiFi-Controlled Car** *(Feb – Mar 2023)*: NodeMCU (ESP8266) and L298N motor driver, controlled through the Blynk app<br>*Stack:* C++ · Arduino IDE · Blynk<br>[Repo](https://github.com/Hari-r31/Node-MCU-Based-Mobile-Controlled-Car-Through-WIFI)
+- **BMS Dashboard & Firmware**: Web monitoring dashboard paired with embedded device firmware<br>*Stack:* TypeScript · C++ · C<br>[Dashboard](https://github.com/Hari-r31/bms-dashboard) · [Firmware](https://github.com/Hari-r31/BMS_Firmware)
+- **AI Smart Traffic System**: Simulated AI traffic-signal control: virtual IoT sensors over MQTT, reinforcement learning (Q-learning), multi-intersection coordination, weather / pedestrian / emergency handling and a Node-RED dashboard<br>*Stack:* Python · MQTT · Reinforcement Learning · Node-RED<br>[Repo](https://github.com/Hari-r31/ai_smart_traffic_system)
+- **Conversational AI FAQ Bot**: Command-line bot that answers questions from a predefined FAQ set using a LangGraph flow<br>*Stack:* Python · LangGraph<br>[Repo](https://github.com/Hari-r31/Conversational-AI-Simple-FAQ-Bot-LangGraph-)
+- **VIET Campus Kiosk** (Navigation Bot): Multilingual (English / Telugu / Hindi) touch-screen kiosk for VIET: campus navigation, fee information, a voice-enabled Gemini AI assistant and QR handoff of directions to a phone<br>*Stack:* React · TypeScript · Vite · Tailwind CSS · Google Gemini · Python · Docker<br>[Frontend](https://github.com/Hari-r31/VIET_Navigation_Bot) · [Backend](https://github.com/Hari-r31/VIET_Navigation_Bot_backend) · [Live](https://viet-navigation-bot.vercel.app)
 
 ---
 
 ## How I work
 
 ```mermaid
-flowchart LR
-    A[01 Understand] --> B[02 Plan] --> C[03 Build] --> D[04 Test] --> E[05 Deploy] --> F[06 Hand over]
+flowchart TD
+    A[Understand] --> B[Plan] --> C[Build] --> D[Test] --> E[Deploy] --> F[Hand over]
 ```
 
-| Step | What happens |
-| --- | --- |
-| **01 · Understand** | I start with the business requirement, users, workflows and constraints. |
-| **02 · Plan** | I break the requirement into architecture, database design, APIs, frontend workflows and deployment requirements. |
-| **03 · Build** | I develop incrementally with clear milestones and maintainable code. |
-| **04 · Test** | I validate APIs, workflows, authentication, edge cases and critical business logic. |
-| **05 · Deploy** | I handle production deployment, environment configuration, CI/CD and monitoring. |
-| **06 · Hand over** | I provide documentation and make the system understandable for the client's team. |
+1. **Understand.** I start with the business requirement, users, workflows and constraints.
+2. **Plan.** I break the requirement into architecture, database design, APIs, frontend workflows and deployment requirements.
+3. **Build.** I develop incrementally with clear milestones and maintainable code.
+4. **Test.** I validate APIs, workflows, authentication, edge cases and critical business logic.
+5. **Deploy.** I handle production deployment, environment configuration, CI/CD and monitoring.
+6. **Hand over.** I provide documentation and make the system understandable for the client's team.
 
 ### You can give me
 
@@ -345,22 +345,18 @@ Figma designs · PRDs and requirements · existing repositories · bug lists · 
 
 **Selected client work**
 
-| Region | Clients |
-| --- | --- |
-| 🇺🇸 **USA** | M&A Construction Services LLC |
-| 🇦🇺 **Australia** | TechGigz Australia · MMP Consultants |
-| 🇮🇳 **India** | Hadha · N Farms Staycation · Prolift Badminton Academy · Sri Jyothi Travels · Tournament365 · VPD Technologies |
+- 🇺🇸 **USA**: M&A Construction Services LLC
+- 🇦🇺 **Australia**: TechGigz Australia · MMP Consultants
+- 🇮🇳 **India**: Hadha · N Farms Staycation · Prolift Badminton Academy · Sri Jyothi Travels · Tournament365 · VPD Technologies
 
 ## Production engineering
 
 I don't stop at writing application code.
 
-| Area | What I work with |
-| --- | --- |
-| **Infrastructure** | Docker · Docker Compose · Linux (Ubuntu) · Nginx · Cloudflare · VPS deployment · Vercel · Render · Netlify · AWS · Azure |
-| **CI/CD** | GitHub Actions · automated builds · deployment pipelines · environment management · production / staging |
-| **Reliability** | Health checks · structured logging · monitoring · metrics · error tracking · Redis · database optimization |
-| **Security** | Authentication / authorization · RBAC · RLS · API security · secret management · tenant isolation |
+- **Infrastructure:** Docker · Docker Compose · Linux (Ubuntu) · Nginx · Cloudflare · VPS deployment · Vercel · Render · Netlify · AWS · Azure
+- **CI/CD:** GitHub Actions · automated builds · deployment pipelines · environment management · production / staging
+- **Reliability:** Health checks · structured logging · monitoring · metrics · error tracking · Redis · database optimization
+- **Security:** Authentication / authorization · RBAC · RLS · API security · secret management · tenant isolation
 
 ## Experience
 
@@ -404,7 +400,13 @@ Before moving fully into software engineering, I worked part-time in technical a
 **I learned engineering from the ground up.**
 
 ```text
-Diploma (ECE) → B.Tech (ECE) → M.Tech (VLSI & Embedded) → Technician → Software engineering → Solution architecture → Project leadership
+Diploma (ECE)
+  → B.Tech (ECE)
+  → M.Tech (VLSI & Embedded)
+  → Technician
+  → Software engineering
+  → Solution architecture
+  → Project leadership
 ```
 
 My background spans embedded systems, software engineering, backend architecture and production infrastructure. That gives me a systems-oriented approach to software: understanding not only the application layer, but also the data, infrastructure and operational side of a product.
@@ -417,59 +419,49 @@ Everything I've worked with, organized by depth: **core stack**, **strong workin
 
 ### Core stack
 
-| Area | Technologies |
-| --- | --- |
-| **Backend** | Python · FastAPI · Django · Django REST Framework · Node.js · Express.js · REST APIs · OpenAPI / Swagger · Pydantic · SQLAlchemy / Async SQLAlchemy · Async programming · WebSockets · JWT / OAuth2 · Authentication & authorization · Background workers / jobs · Celery |
-| **Frontend** | React · Next.js (App Router, server / client components, Next.js APIs) · TypeScript · JavaScript · Vite · Tailwind CSS · React Router · TanStack Query · Zustand · React Hook Form · Zod · Recharts · Radix UI · shadcn/ui · Axios · Responsive UI development |
-| **Databases** | PostgreSQL · Supabase · Redis · MySQL · MongoDB · Firebase / Firestore · Schema design · Migrations / Alembic · Row-level security (RLS) · Indexing & constraints · Query optimization · Transactions & concurrency |
-| **Languages** | Python · TypeScript · JavaScript · SQL |
+- **Backend:** Python · FastAPI · Django · Django REST Framework · Node.js · Express.js · REST APIs · OpenAPI / Swagger · Pydantic · SQLAlchemy / Async SQLAlchemy · Async programming · WebSockets · JWT / OAuth2 · Authentication & authorization · Background workers / jobs · Celery
+- **Frontend:** React · Next.js (App Router, server / client components, Next.js APIs) · TypeScript · JavaScript · Vite · Tailwind CSS · React Router · TanStack Query · Zustand · React Hook Form · Zod · Recharts · Radix UI · shadcn/ui · Axios · Responsive UI development
+- **Databases:** PostgreSQL · Supabase · Redis · MySQL · MongoDB · Firebase / Firestore · Schema design · Migrations / Alembic · Row-level security (RLS) · Indexing & constraints · Query optimization · Transactions & concurrency
+- **Languages:** Python · TypeScript · JavaScript · SQL
 
 ### Strong working experience
 
-| Area | Technologies |
-| --- | --- |
-| **AI / LLM** | OpenAI API · LLM integrations · Prompt engineering · Structured LLM outputs · AI agents · LangGraph · AI workflows · Function / tool calling · AI-assisted backend workflows · AI image classification · CNN / TensorFlow / Keras · Leaf-disease detection · Google Gemini |
-| **AI projects** | AI Recipe / Meal Scan · AI Plant Doctor · Conversational AI FAQ · Periscope · Valhuntir / SIFT / OpenSearch POC · AI-driven backend workflows |
-| **Data engineering** | Apache Spark · Apache Airflow · AWS S3 Tables · Apache Iceberg · PostgreSQL · Data ingestion pipelines · ETL / data processing · Metadata-driven ingestion · Fixed-width, delimited, XML and Excel files · Schema-drift handling · Malformed-record handling · Data reprocessing |
-| **Cloud** | AWS · AWS S3 · AWS S3 Tables · Azure · Azure Functions · Supabase · Vercel · Render · Netlify · Firebase Hosting · Cloudflare |
-| **Infrastructure** | Docker · Docker Compose · Linux · Ubuntu · VPS · Nginx · Reverse proxies · Cloudflare · CDN · Cloudflare R2 · Docker networks · Docker volumes · Container health checks · Resource limits |
-| **CI/CD & DevOps** | Git · GitHub · GitHub Actions · CI/CD · GHCR · Docker image builds · Multi-architecture images · Automated deployment · SSH-based deployment · SCP deployment · Vercel and Render deployment · Environment configuration · Production / staging environments · Database migrations during deployment · Alembic · Production troubleshooting |
-| **Observability** | Prometheus · Grafana · Loki · Promtail · Node Exporter · cAdvisor · Redis Exporter · Uptime Kuma · Dozzle · Grafana dashboards · Structured logging · Request IDs · Trace IDs · Error tracking |
-| **Error tracking** | Sentry · GlitchTip · Sentry JavaScript SDK · Sentry / FastAPI integration |
-| **Security** | Secret detection · Regex-based detection · Shannon entropy · Context scoring · Secret validators · Secret remediation workflows · Escalation workflows · Finding lifecycle management · OpenBao · HashiCorp Vault · Authentication · Authorization · TOTP two-factor authentication · OAuth with PKCE · CSRF protection · Rate limiting · RBAC · RLS · IDOR / BOLA testing · SaaS tenant isolation |
-| **Security platforms & work** | Periscope · Valhuntir · SIFT · OpenSearch · Akmatori exploration · MCP · Forensic workflows |
-| **E-commerce** | Product catalog · Product variants · Inventory · Inventory reservations · Cart · Checkout · Orders · Admin panels · Customer accounts · Delivery workflows |
-| **Payments & integrations** | Razorpay · Payment verification · Payment workflows · Resend · Twilio · Delivery APIs · Supabase Auth · Google OAuth · Cloudflare R2 / CDN · OpenAI API |
-| **Testing & quality** | Pytest · Playwright · Vitest · Locust load testing · Backend unit tests · Integration testing · E2E testing · Frontend unit testing · API testing · Postman · TypeScript checking · ESLint · CI test pipelines · Manual QA · Production validation |
-| **Architecture & practices** | REST API architecture · Microservices · Monolithic applications · SaaS and multi-tenant architecture · Database architecture · API integration architecture · Authentication & authorization architecture · RBAC · RLS · Caching (Redis) · Concurrency · Inventory reservation systems · Background workers · Queue-based workflows · CDN architecture · Object storage · CI/CD architecture · Monitoring, logging and error-tracking architecture · Production deployment architecture · Security architecture |
+- **AI / LLM:** OpenAI API · LLM integrations · Prompt engineering · Structured LLM outputs · AI agents · LangGraph · AI workflows · Function / tool calling · AI-assisted backend workflows · AI image classification · CNN / TensorFlow / Keras · Leaf-disease detection · Google Gemini
+- **AI projects:** AI Recipe / Meal Scan · AI Plant Doctor · Conversational AI FAQ · Periscope · Valhuntir / SIFT / OpenSearch POC · AI-driven backend workflows
+- **Data engineering:** Apache Spark · Apache Airflow · AWS S3 Tables · Apache Iceberg · PostgreSQL · Data ingestion pipelines · ETL / data processing · Metadata-driven ingestion · Fixed-width, delimited, XML and Excel files · Schema-drift handling · Malformed-record handling · Data reprocessing
+- **Cloud:** AWS · AWS S3 · AWS S3 Tables · Azure · Azure Functions · Supabase · Vercel · Render · Netlify · Firebase Hosting · Cloudflare
+- **Infrastructure:** Docker · Docker Compose · Linux · Ubuntu · VPS · Nginx · Reverse proxies · Cloudflare · CDN · Cloudflare R2 · Docker networks · Docker volumes · Container health checks · Resource limits
+- **CI/CD & DevOps:** Git · GitHub · GitHub Actions · CI/CD · GHCR · Docker image builds · Multi-architecture images · Automated deployment · SSH-based deployment · SCP deployment · Vercel and Render deployment · Environment configuration · Production / staging environments · Database migrations during deployment · Alembic · Production troubleshooting
+- **Observability:** Prometheus · Grafana · Loki · Promtail · Node Exporter · cAdvisor · Redis Exporter · Uptime Kuma · Dozzle · Grafana dashboards · Structured logging · Request IDs · Trace IDs · Error tracking
+- **Error tracking:** Sentry · GlitchTip · Sentry JavaScript SDK · Sentry / FastAPI integration
+- **Security:** Secret detection · Regex-based detection · Shannon entropy · Context scoring · Secret validators · Secret remediation workflows · Escalation workflows · Finding lifecycle management · OpenBao · HashiCorp Vault · Authentication · Authorization · TOTP two-factor authentication · OAuth with PKCE · CSRF protection · Rate limiting · RBAC · RLS · IDOR / BOLA testing · SaaS tenant isolation
+- **Security platforms & work:** Periscope · Valhuntir · SIFT · OpenSearch · Akmatori exploration · MCP · Forensic workflows
+- **E-commerce:** Product catalog · Product variants · Inventory · Inventory reservations · Cart · Checkout · Orders · Admin panels · Customer accounts · Delivery workflows
+- **Payments & integrations:** Razorpay · Payment verification · Payment workflows · Resend · Twilio · Delivery APIs · Supabase Auth · Google OAuth · Cloudflare R2 / CDN · OpenAI API
+- **Testing & quality:** Pytest · Playwright · Vitest · Locust load testing · Backend unit tests · Integration testing · E2E testing · Frontend unit testing · API testing · Postman · TypeScript checking · ESLint · CI test pipelines · Manual QA · Production validation
+- **Architecture & practices:** REST API architecture · Microservices · Monolithic applications · SaaS and multi-tenant architecture · Database architecture · API integration architecture · Authentication & authorization architecture · RBAC · RLS · Caching (Redis) · Concurrency · Inventory reservation systems · Background workers · Queue-based workflows · CDN architecture · Object storage · CI/CD architecture · Monitoring, logging and error-tracking architecture · Production deployment architecture · Security architecture
 
 ### Project experience
 
-| Area | Technologies |
-| --- | --- |
-| **Other frontend frameworks** | Angular · Bootstrap |
-| **Mobile** | React Native · Expo · Flutter · Dart · Firebase Authentication · Firebase Push Notifications |
-| **IoT & embedded hardware** | ESP32 · ESP8266 / NodeMCU · Arduino · Sensors (DHT11, soil moisture, LDR, pH, dissolved oxygen, turbidity, ammonia) · Motors · Controllers |
-| **IoT & embedded software** | C · C++ · Arduino IDE · Blynk · ThingSpeak · MQTT · Node-RED · Twilio |
-| **IoT projects** | Fish pond monitoring · AI Plant Doctor · Smart traffic system · WiFi-controlled vehicle · BMS dashboard / firmware |
-| **Other languages** | C · C++ · Dart · HTML · CSS |
+- **Other frontend frameworks:** Angular · Bootstrap
+- **Mobile:** React Native · Expo · Flutter · Dart · Firebase Authentication · Firebase Push Notifications
+- **IoT & embedded hardware:** ESP32 · ESP8266 / NodeMCU · Arduino · Sensors (DHT11, soil moisture, LDR, pH, dissolved oxygen, turbidity, ammonia) · Motors · Controllers
+- **IoT & embedded software:** C · C++ · Arduino IDE · Blynk · ThingSpeak · MQTT · Node-RED · Twilio
+- **IoT projects:** Fish pond monitoring · AI Plant Doctor · Smart traffic system · WiFi-controlled vehicle · BMS dashboard / firmware
+- **Other languages:** C · C++ · Dart · HTML · CSS
 
 ### Supporting experience
 
-| Area | Technologies |
-| --- | --- |
-| **Tools & workflow** | Git · GitHub · GitHub Actions · VS Code · Postman · Docker · Linux · Swagger / OpenAPI · Claude · OpenAI · MCP · Markdown / documentation · PR and code review workflows · Agile / sprint workflows |
+- **Tools & workflow:** Git · GitHub · GitHub Actions · VS Code · Postman · Docker · Linux · Swagger / OpenAPI · Claude · OpenAI · MCP · Markdown / documentation · PR and code review workflows · Agile / sprint workflows
 
 ---
 
 ## Education & credentials
 
-| Institution | Program | Years |
-| --- | --- | --- |
-| **Visakha Institute of Engineering & Technology**, Narava | Master's degree, VLSI & Embedded Systems | Oct 2024 – May 2026 |
-| **QSpiders** (Software Testing Training Institute) | Python Full Stack Development Training | May 2024 – Feb 2025 |
-| **Visakha Institute of Engineering & Technology**, Narava | Bachelor of Technology, Electrical, Electronics and Communications Engineering | 2021 – 2024 |
-| **Sir C.V. Raman Polytechnic College**, Ullamparru | Diploma, Electronics and Communication Engineering | 2018 – 2021 |
+- **Visakha Institute of Engineering & Technology**, Narava: Master's degree, VLSI & Embedded Systems (Oct 2024 – May 2026)
+- **QSpiders** (Software Testing Training Institute): Python Full Stack Development Training (May 2024 – Feb 2025)
+- **Visakha Institute of Engineering & Technology**, Narava: Bachelor of Technology, Electrical, Electronics and Communications Engineering (2021 – 2024)
+- **Sir C.V. Raman Polytechnic College**, Ullamparru: Diploma, Electronics and Communication Engineering (2018 – 2021)
 
 **Publications**
 - *Monitoring of Fish Pond Based on IoT & its Enhanced Production System*: IJARESM, Vol. 12, Issue 6, June 8, 2024.
