@@ -79,10 +79,14 @@ I design and build production-ready web applications, backend systems, SaaS plat
 **Also experienced with:** Django · Node.js · Angular · Flutter · MongoDB · Firebase · Kubernetes · Nginx · Cloudflare · and more, see the [full technology profile](#full-technology-profile) below.
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=py,fastapi,django,nodejs,postgres,supabase,redis,mongodb,firebase,react,nextjs,ts,tailwind,angular,flutter,docker,kubernetes,nginx,cloudflare,aws,azure,githubactions,grafana,prometheus,sentry,linux,git,arduino&perline=10&theme=dark" alt="Tech stack">
-<br>
-<img src="https://cdn.simpleicons.org/apachespark/E25A1C" height="44" alt="Apache Spark">&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/apacheairflow/017CEE" height="44" alt="Apache Airflow">
+<table>
+<tr><td><b>Backend</b></td><td><img src="https://skillicons.dev/icons?i=py,fastapi,django,nodejs&theme=dark" alt="py,fastapi,django,nodejs"></td></tr>
+<tr><td><b>Frontend & mobile</b></td><td><img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,angular,flutter&theme=dark" alt="ts,react,nextjs,tailwind,angular,flutter"></td></tr>
+<tr><td><b>Data & databases</b></td><td><img src="https://skillicons.dev/icons?i=postgres,supabase,redis,mongodb,firebase&theme=dark" alt="postgres,supabase,redis,mongodb,firebase">&nbsp;<img src="./assets/icons/spark.svg" width="48" height="48" alt="Apache Spark">&nbsp;<img src="./assets/icons/airflow.svg" width="48" height="48" alt="Apache Airflow"></td></tr>
+<tr><td><b>Cloud & DevOps</b></td><td><img src="https://skillicons.dev/icons?i=docker,kubernetes,nginx,cloudflare,aws,azure,githubactions,linux,git&theme=dark" alt="docker,kubernetes,nginx,cloudflare,aws,azure,githubactions,linux,git"></td></tr>
+<tr><td><b>Observability</b></td><td><img src="https://skillicons.dev/icons?i=grafana,prometheus,sentry&theme=dark" alt="grafana,prometheus,sentry"></td></tr>
+<tr><td><b>Embedded & IoT</b></td><td><img src="https://skillicons.dev/icons?i=arduino&theme=dark" alt="arduino"></td></tr>
+</table>
 </div>
 
 ---
