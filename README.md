@@ -30,23 +30,24 @@ I design and build production-ready web applications, backend systems, SaaS plat
   </a>
 </p>
 
-<sub>📍 Based in India · Available for remote US projects</sub>
+<sub>📍 Based in India · Available for remote projects</sub>
 
 <br clear="both">
 
 </div>
 
-> **I don't just build features. I take ownership of the system from requirement to production.**
+<div align="center">
 
-<table align="center" width="100%">
-<tr>
-<td align="center" width="20%"><h2>11</h2>live products &<br>client websites</td>
-<td align="center" width="20%"><h2>~40</h2>engineers &<br>students mentored</td>
-<td align="center" width="20%"><h2>3</h2>countries served<br>India · USA · Australia</td>
-<td align="center" width="20%"><h2>Prod</h2>deployments,<br>CI/CD & monitoring</td>
-<td align="center" width="20%"><h2>2</h2>published<br>research papers</td>
-</tr>
-</table>
+<h3><i>I don't just build features. I take ownership of the system from requirement to production.</i></h3>
+
+<img src="https://img.shields.io/badge/11-LIVE%20PRODUCTS%20%26%20CLIENT%20SITES-161B22?style=for-the-badge&labelColor=EF93C4&color=161B22" alt="11 live products and client sites">
+<img src="https://img.shields.io/badge/~40-ENGINEERS%20%26%20STUDENTS%20MENTORED-161B22?style=for-the-badge&labelColor=EF93C4&color=161B22" alt="About 40 engineers and students mentored">
+<br>
+<img src="https://img.shields.io/badge/3-COUNTRIES%3A%20INDIA%20%C2%B7%20USA%20%C2%B7%20AUSTRALIA-161B22?style=for-the-badge&labelColor=EF93C4&color=161B22" alt="3 countries: India, USA, Australia">
+<img src="https://img.shields.io/badge/PRODUCTION-CI%2FCD%20%26%20MONITORING-161B22?style=for-the-badge&labelColor=EF93C4&color=161B22" alt="Production deployments, CI/CD and monitoring">
+<img src="https://img.shields.io/badge/2-PUBLISHED%20RESEARCH%20PAPERS-161B22?style=for-the-badge&labelColor=EF93C4&color=161B22" alt="2 published research papers">
+
+</div>
 
 ---
 
@@ -78,14 +79,17 @@ I design and build production-ready web applications, backend systems, SaaS plat
 **Also experienced with:** Django · Node.js · Angular · Flutter · MongoDB · Firebase · Kubernetes · Nginx · Cloudflare · and more, see the [full technology profile](#full-technology-profile) below.
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=py,fastapi,django,nodejs,postgres,supabase,redis,mongodb,firebase,react,nextjs,ts,tailwind,angular,flutter,docker,kubernetes,nginx,cloudflare,aws,azure,githubactions,spark,airflow,grafana,prometheus,sentry,linux,git,arduino&perline=10&theme=dark" alt="Tech stack">
+<img src="https://skillicons.dev/icons?i=py,fastapi,django,nodejs,postgres,supabase,redis,mongodb,firebase,react,nextjs,ts,tailwind,angular,flutter,docker,kubernetes,nginx,cloudflare,aws,azure,githubactions,grafana,prometheus,sentry,linux,git,arduino&perline=10&theme=dark" alt="Tech stack">
+<br>
+<img src="https://cdn.simpleicons.org/apachespark/E25A1C" height="44" alt="Apache Spark">&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/apacheairflow/017CEE" height="44" alt="Apache Airflow">
 </div>
 
 ---
 
 ## Selected work
 
-Five flagship projects, each shown as **problem → what I built → engineering challenges → result**.
+Four flagship projects, each shown as **problem → what I built → engineering challenges → result**.
 
 ### 1 · Hadha: E-commerce platform · [hadha.co](https://hadha.co/)
 
@@ -185,25 +189,7 @@ flowchart TD
 
 ---
 
-### 4 · Data ingestion pipelines · *Conflowence*
-
-**Problem.** Data arrives in inconsistent formats, with drifting schemas, missing headers and malformed rows, and still has to be processed reliably.
-
-**My role.** Backend / data engineer.
-
-**What I built**
-- **Metadata-driven ingestion pipelines** for **fixed-width, delimited, XML and Excel** data
-- **Schema-drift handling**, **malformed-record handling** and **reprocessing** so runs stay consistent
-- Improved parser logic and ingestion workflows integrated with **AWS S3 Tables and Apache Iceberg**
-- Schemas designed in **PostgreSQL (Supabase)**, balancing strict validation with flexibility for evolving data
-
-**Result.** Reliable reprocessing and consistent data handling across runs.
-
-**Stack.** Python · FastAPI · Apache Spark · Airflow (DAGs) · AWS S3 Tables · Apache Iceberg · PostgreSQL (Supabase)
-
----
-
-### 5 · Production infrastructure & observability
+### 4 · Production infrastructure & observability
 
 **Problem.** Applications in production need to be deployable, observable and debuggable, not just working on a laptop.
 
@@ -232,9 +218,7 @@ flowchart TD
 | Project | What it is | Stack |
 | --- | --- | --- |
 | **[Tournament365](https://tournament365.in/)** | SaaS-based ERP for tournament management, self-hosted on Ubuntu / Nginx | Angular · Bootstrap · Nginx |
-| **[AI Plant Doctor](https://github.com/Hari-r31/smart-plant-doctor)** *(May 2025 – Present)* | End-to-end smart agriculture: ESP32 with DHT11, soil-moisture and LDR sensors sends data to Supabase via REST; FastAPI runs AI leaf-disease detection; React dashboard shows live stats, image uploads, alerts and disease history | ESP32 · FastAPI · React · Supabase (storage + RLS) · TensorFlow / Keras · Vercel · Render |
-| **AI Recipe / Meal Scan** *(Conflowence)* | AI-driven backend workflows with OpenAI integrations | Python · FastAPI · OpenAI API |
-| **Mulegine AI** *(Conflowence)* | AI-driven backend workflows and structured response processing | Python · FastAPI · OpenAI API |
+| **[AI Plant Doctor](https://github.com/Hari-r31/smart-plant-doctor)** *(May 2025 · Completed)* | End-to-end smart agriculture: ESP32 with DHT11, soil-moisture and LDR sensors sends data to Supabase via REST; FastAPI runs AI leaf-disease detection; React dashboard shows live stats, image uploads, alerts and disease history | ESP32 · FastAPI · React · Supabase (storage + RLS) · TensorFlow / Keras · Vercel · Render |
 
 ```text
 ESP32 sensors ──REST──▶ Supabase ◀── FastAPI (AI leaf-disease detection) ──▶ React dashboard
@@ -252,10 +236,9 @@ ESP32 sensors ──REST──▶ Supabase ◀── FastAPI (AI leaf-disease de
 | **[Prolift Badminton Academy](https://proliftacademy.netlify.app/)** 🇮🇳 | Training academy in Bangalore | Next.js · Tailwind CSS · Cloudinary · Netlify |
 | **[Sri Jyothi Travels](https://sri-jyothi-travels.vercel.app/)** 🇮🇳 | Taxi service in Palakollu, Andhra Pradesh: airport and railway-station transfers, local rides and outstation trips, in Telugu, Hindi and English | React · Vite · TanStack · Lucide · Vercel |
 
-<details>
-<summary><b>Archive: student projects & mentorship</b> (B.Tech projects built for students as a freelancer, plus mentoring)</summary>
+### Archive: student projects & mentorship
 
-<br>
+B.Tech projects built for students as a freelancer, plus mentoring.
 
 | Project | Details | Stack | Links |
 | --- | --- | --- | --- |
@@ -265,8 +248,6 @@ ESP32 sensors ──REST──▶ Supabase ◀── FastAPI (AI leaf-disease de
 | **AI Smart Traffic System** | Simulated AI traffic-signal control: virtual IoT sensors over MQTT, reinforcement learning (Q-learning), multi-intersection coordination, weather / pedestrian / emergency handling and a Node-RED dashboard | Python · MQTT · Reinforcement Learning · Node-RED | [Repo](https://github.com/Hari-r31/ai_smart_traffic_system) |
 | **Conversational AI FAQ Bot** | Command-line bot that answers questions from a predefined FAQ set using a LangGraph flow | Python · LangGraph | [Repo](https://github.com/Hari-r31/Conversational-AI-Simple-FAQ-Bot-LangGraph-) |
 | **VIET Campus Kiosk** (Navigation Bot) | Multilingual (English / Telugu / Hindi) touch-screen kiosk for VIET: campus navigation, fee information, a voice-enabled Gemini AI assistant and QR handoff of directions to a phone | React · TypeScript · Vite · Tailwind CSS · Google Gemini · Python · Docker | [Frontend](https://github.com/Hari-r31/VIET_Navigation_Bot) · [Backend](https://github.com/Hari-r31/VIET_Navigation_Bot_backend) · [Live](https://viet-navigation-bot.vercel.app) |
-
-</details>
 
 ---
 
@@ -429,7 +410,7 @@ Everything I've worked with, organized by depth: **core stack**, **strong workin
 
 | Institution | Program | Years |
 | --- | --- | --- |
-| **Visakha Institute of Engineering & Technology**, Narava | Master's degree, VLSI & Embedded Systems | Oct 2024 – May 2026 ✅ Completed |
+| **Visakha Institute of Engineering & Technology**, Narava | Master's degree, VLSI & Embedded Systems | Oct 2024 – May 2026 |
 | **QSpiders** (Software Testing Training Institute) | Python Full Stack Development Training | May 2024 – Feb 2025 |
 | **Visakha Institute of Engineering & Technology**, Narava | Bachelor of Technology, Electrical, Electronics and Communications Engineering | 2021 – 2024 |
 | **Sir C.V. Raman Polytechnic College**, Ullamparru | Diploma, Electronics and Communication Engineering | 2018 – 2021 |
