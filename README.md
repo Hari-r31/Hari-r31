@@ -57,7 +57,7 @@ I'm **Hari Sai Kumar Thatholu**, a Software Engineer at **Conflowence** based in
 </td>
 <td width="35%" align="center" valign="middle">
 
-<img src="https://skillicons.dev/icons?i=py,fastapi,nodejs,django,postgres,supabase,docker,kubernetes,aws,azure,githubactions,spark,airflow,react,ts,cpp,arduino,git&perline=6&theme=dark" width="100%" alt="Tech stack">
+<img src="https://skillicons.dev/icons?i=py,fastapi,nodejs,django,postgres,supabase,docker,kubernetes,aws,azure,githubactions,spark,airflow,react,flutter,ts,cpp,arduino,git&perline=6&theme=dark" width="100%" alt="Tech stack">
 
 </td>
 </tr>
@@ -104,7 +104,7 @@ Freelance engagement leading delivery of software projects end to end, from prod
 | **Databases** | PostgreSQL (Supabase) · MySQL · Schema design · Row-level security (RLS) |
 | **Cloud & DevOps** | Git · GitHub · Azure Functions · AWS S3 · Docker · Kubernetes · GitHub Actions (CI/CD) · Vercel · Render · OpenBao / HashiCorp Vault |
 | **Frontend** | React.js · TypeScript · HTML |
-| **Mobile** | Mobile application development |
+| **Mobile** | React Native · Flutter · Mobile application development |
 | **Testing** | Pytest · CI/CD pipelines · QA |
 | **IoT & Embedded** | ESP32 · NodeMCU (ESP8266) · Arduino IDE · Blynk · ThingSpeak · Twilio · Sensors · VLSI |
 | **Leadership & Process** | Solution architecture · Project management · Mentoring · Code reviews · Sprint planning |
