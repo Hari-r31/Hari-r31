@@ -1,6 +1,6 @@
 <div align="left">
 
-<img align="right" src="https://github.com/Hari-r31.png?size=250" width="250" hspace="15" alt="Hari Sai Kumar Thatholu">
+<img align="right" src="./img.png" width="250" hspace="15" alt="Hari Sai Kumar Thatholu">
 
 <h1>Hey there, I'm Hari Sai Kumar Thatholu 👋</h1>
 
@@ -98,12 +98,12 @@ Freelance engagement leading delivery of software projects end to end, from prod
 | Area | Technologies |
 | --- | --- |
 | **Languages** | Python · TypeScript · JavaScript · Dart · C++ · SQL · HTML · CSS |
-| **Backend & APIs** | FastAPI · Node.js · Express.js · Django · Django REST Framework · REST APIs · OpenAPI / Swagger · Pydantic · SQLAlchemy · Microservices · WebSockets · JWT / OAuth2 · Authentication & authorization · JSON Schema |
+| **Backend & APIs** | FastAPI · Node.js · Express.js · Django · Django REST Framework · REST APIs · OpenAPI / Swagger · Pydantic · SQLAlchemy · Microservices · WebSockets · JWT / OAuth2 · Authentication & authorization · Payment gateway integration (Razorpay) · JSON Schema |
 | **AI & LLM** | OpenAI API · LLM integrations · Prompt engineering · Structured LLM responses · LangGraph · AI agents & workflows · AI image classification (leaf-disease detection) |
 | **Data Engineering** | Data ingestion pipelines · Apache Spark · Airflow (DAGs) · AWS S3 Tables · Apache Iceberg · XML / fixed-width / delimited / Excel parsing |
 | **Databases** | PostgreSQL (Supabase) · MySQL · MongoDB · Redis · Firebase (Firestore / Realtime Database) · Schema design · Row-level security (RLS) |
-| **Cloud & DevOps** | Git · GitHub · Azure Functions · AWS S3 · Docker · Kubernetes · GitHub Actions (CI/CD) · Linux · Nginx · Vercel · Render · Firebase Hosting · OpenBao / HashiCorp Vault |
-| **Frontend** | React.js · Next.js · TypeScript · Tailwind CSS · HTML5 · CSS3 · Responsive design |
+| **Cloud & DevOps** | Git · GitHub · Azure Functions · AWS S3 · Docker · Kubernetes · GitHub Actions (CI/CD) · Linux · Nginx · Vercel · Netlify · Cloudflare · Render · Firebase Hosting · OpenBao / HashiCorp Vault |
+| **Frontend** | React.js · Next.js · Angular · Vite · TypeScript · Tailwind CSS · Bootstrap · Radix UI · Zustand · TanStack Query · Recharts · HTML5 · CSS3 · Responsive design |
 | **Mobile** | React Native · Expo · Flutter · Dart · Firebase (Auth, Push Notifications) · Mobile application development |
 | **Testing & Tools** | Pytest · Postman · CI/CD pipelines · QA · Code reviews · VS Code |
 | **IoT & Embedded** | ESP32 · NodeMCU (ESP8266) · Arduino IDE · Blynk · ThingSpeak · Twilio · Sensors · VLSI |
@@ -147,6 +147,30 @@ Freelance engagement leading delivery of software projects end to end, from prod
 - **Detecting Harmful Gases on Road (IoT)** *(Jan – Apr 2020)*: gas-sensing kit in streetlights that reports readings to a website.
 
 </details>
+
+## 🧾 Freelance Work
+
+Products and websites I designed and built as a freelancer, from requirements to live deployment.
+
+### Products & Platforms
+
+| Project | What I built | Stack |
+| --- | --- | --- |
+| **[Hadha](https://hadha.co/)**: handcrafted 92.5 silver jewellery store | End-to-end e-commerce: product catalogs, ordering, payment integration, delivery tracking and an admin panel | React · Vite · Supabase (PostgreSQL) · Zustand · TanStack Query · Radix UI · Recharts · Cloudflare |
+| **[ExamPro](https://www.exam-pro.tech/)**: secure online exams for organizations | Multi-tenant SaaS for running proctored exams with layered guards: fullscreen lockdown, tab-switch / blur / copy monitoring with activity logs, timed exams with autosave, automatic scoring and manual review, and isolated data per organization | React · Vite · Tailwind CSS · Radix UI · Supabase · Recharts · Vercel |
+| **[Tournament365](https://tournament365.in/)**: tournament management | SaaS-based ERP for running tournaments | Angular · Bootstrap · Nginx on Ubuntu (self-hosted) |
+| **[VPD FrontDesk](https://frontdesk.vpdtechnologies.com/)**: reception & appointment booking | Visitors book appointments with the right person without an account; live availability re-checked at booking, 30-minute slots, staff sign-in and email confirmations | Next.js · React · Tailwind CSS · Radix UI · Vercel |
+
+### Business Websites
+
+| Site | About | Stack |
+| --- | --- | --- |
+| **[VPD Technologies](https://vpdtechnologies.com/)** | Company landing page: premium software engineering & web architecture | React · Vite · Tailwind CSS · Axios · Vercel |
+| **[M&A Construction Services LLC](https://maconstruction-llc.com/)** | Company landing pages: construction estimating, BIM and project controls (USA) | React · Vite · Hostinger |
+| **[TechGigz Australia](https://www.techgigz.com.au/)** | Company landing pages: custom software development & IT solutions, Perth | React · Vite · Vercel |
+| **[MMP Consultants](https://www.mmpconsultants.com.au/)** | Company landing pages: consulting & project support services, Australia | React · Vite · Vercel |
+| **[N Farms Staycation](https://nfarms.netlify.app/)** | Luxury farmstay resort site in Moinabad, Telangana, with packages, gallery and booking enquiries | Next.js · Tailwind CSS · Razorpay · Netlify |
+| **[Prolift Badminton Academy](https://proliftacademy.netlify.app/)** | Training academy site in Bangalore: programs, coaches, gallery and FAQ | Next.js · Tailwind CSS · Cloudinary · Netlify |
 
 ## 📄 Publications
 
