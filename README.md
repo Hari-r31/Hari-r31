@@ -119,35 +119,6 @@ Freelance engagement leading delivery of software projects end to end, from prod
 | **Sir C.V. Raman Polytechnic College**, Ullamparru | Diploma, Electronics and Communication Engineering | 2018 – 2021 |
 | **Montessori E.M. High School**, Palakol | SSC | 2017 – 2018 |
 
-## 🚀 Featured Projects
-
-| Project | Stack | Links |
-| --- | --- | --- |
-| **AI Plant Doctor** *(May 2025 – Present)*: ESP32 with DHT11, soil-moisture and LDR sensors sends data to Supabase via REST; a FastAPI backend runs AI leaf-disease detection; a React.js dashboard shows live sensor stats, image uploads, alerts and disease history | ESP32 · FastAPI · React · Supabase · Vercel · Render | [Repo](https://github.com/Hari-r31/smart-plant-doctor) |
-| **VIET Navigation Bot** | TypeScript · Python | [Frontend](https://github.com/Hari-r31/VIET_Navigation_Bot) · [Backend](https://github.com/Hari-r31/VIET_Navigation_Bot_backend) · [Live](https://viet-navigation-bot.vercel.app) |
-| **Internship Platform** | TypeScript | [Repo](https://github.com/Hari-r31/internship-platform) · [Live](https://internship-platform-coral.vercel.app) |
-| **Pixel Perfect UI** | TypeScript | [Repo](https://github.com/Hari-r31/pixel-perfect-ui) · [Live](https://pixel-perfect-ui-eight.vercel.app) |
-| **Racketek** | TypeScript · Python | [Frontend](https://github.com/Hari-r31/racketek_frontend) · [Backend](https://github.com/Hari-r31/racketek_backend) |
-| **BMS Dashboard & Firmware** | TypeScript · C++ | [Dashboard](https://github.com/Hari-r31/bms-dashboard) · [Firmware](https://github.com/Hari-r31/BMS_Firmware) |
-| **Conversational AI FAQ Bot** | Python · LangGraph | [Repo](https://github.com/Hari-r31/Conversational-AI-Simple-FAQ-Bot-LangGraph-) |
-| **AI Smart Traffic System** | — | [Repo](https://github.com/Hari-r31/ai_smart_traffic_system) |
-| **IoT Fish Pond Monitoring & Production Enhancement** *(Jan – May 2024)*: real-time water-quality monitoring (temperature, pH, dissolved oxygen, turbidity, ammonia) with Blynk, ThingSpeak and Twilio SMS alerts, plus remote control of aerators, feeders and pumps | C++ · Arduino IDE · Blynk · ThingSpeak | [Repo](https://github.com/Hari-r31/IOT-Based-Fish-Pond-Monitoring-its-Production-Enhancement-System) |
-| **Blog Post Management Backend** | Python · MySQL | [Repo](https://github.com/Hari-r31/Backend-Application-Enhanced-Blog-Post-Management-with-Tagging-Python-MySQL-.-) |
-| **NodeMCU WiFi-Controlled Car** *(Feb – Mar 2023)*: NodeMCU (ESP8266) and L298N motor driver, controlled through the Blynk app | C++ · Arduino IDE | [Repo](https://github.com/Hari-r31/Node-MCU-Based-Mobile-Controlled-Car-Through-WIFI) |
-
-<details>
-<summary><b>More projects</b></summary>
-
-<br>
-
-- **Full-Stack E-commerce Platform** *(Oct – Dec 2024)*: Django and Django REST Framework with token/session auth, cart, checkout and order-tracking APIs, payment-gateway integration and third-party delivery/email APIs.
-- **Blog Application** *(Jun – Jul 2024)*: Django blogging platform with role-based access for authors, editors and readers, comments, likes and moderation.
-- **IoT-Based LED Display Board** *(Sep – Oct 2022)*: scrolling LED display on NodeMCU with remote content updates over WiFi.
-- **Communication Using Li-Fi During Travelling** *(Aug – Nov 2021)*: Li-Fi short-range communication for vehicles to reduce accident risk and support emergency messaging.
-- **Detecting Harmful Gases on Road (IoT)** *(Jan – Apr 2020)*: gas-sensing kit in streetlights that reports readings to a website.
-
-</details>
-
 ## 🧾 Freelance Work
 
 Products and websites I designed and built as a freelancer, from requirements to live deployment.
