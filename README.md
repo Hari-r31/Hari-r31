@@ -93,6 +93,21 @@ Freelance engagement leading delivery of software projects end to end, from prod
 - **Project management:** own delivery from PRD through development, testing and deployment to go-live.
 - **Team mentoring:** mentor around **40 people** across frontend, backend, database, testing/QA and deployment.
 
+## 🛠️ Skills
+
+| Area | Technologies |
+| --- | --- |
+| **Languages** | Python · TypeScript · JavaScript · C++ · HTML |
+| **Backend & APIs** | FastAPI · Django · Django REST Framework · REST APIs · JSON Schema · Authentication & authorization |
+| **AI & LLM** | OpenAI API · Prompt workflows · Structured LLM responses · LangGraph · AI image classification (leaf-disease detection) |
+| **Data Engineering** | Data ingestion pipelines · Apache Spark · Airflow (DAGs) · AWS S3 Tables · Apache Iceberg · XML / fixed-width / delimited / Excel parsing |
+| **Databases** | PostgreSQL (Supabase) · MySQL · Schema design · Row-level security (RLS) |
+| **Cloud & DevOps** | Azure Functions · AWS S3 · Docker · Kubernetes · GitHub Actions (CI/CD) · Vercel · Render · OpenBao / HashiCorp Vault |
+| **Frontend** | React.js · TypeScript · HTML |
+| **Testing** | Pytest · CI/CD pipelines · QA |
+| **IoT & Embedded** | ESP32 · NodeMCU (ESP8266) · Arduino IDE · Blynk · ThingSpeak · Twilio · Sensors · VLSI |
+| **Leadership & Process** | Solution architecture · Project management · Mentoring · Code reviews · Sprint planning |
+
 ## 🎓 Education
 
 | Institution | Program | Years |
