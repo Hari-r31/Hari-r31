@@ -143,6 +143,20 @@ Products and websites I designed and built as a freelancer, from requirements to
 | **[N Farms Staycation](https://nfarms.netlify.app/)** | Luxury farmstay resort site in Moinabad, Telangana, with packages, gallery and booking enquiries | Next.js · Tailwind CSS · Razorpay · Netlify |
 | **[Prolift Badminton Academy](https://proliftacademy.netlify.app/)** | Training academy site in Bangalore: programs, coaches, gallery and FAQ | Next.js · Tailwind CSS · Cloudinary · Netlify |
 
+## 🎓 Student Projects & Mentorship
+
+Built B.Tech projects for students as a developer, and mentored students through their M.Tech projects.
+
+| Project | Details | Stack | Links |
+| --- | --- | --- | --- |
+| **IoT Fish Pond Monitoring & Production Enhancement** *(Jan – May 2024)* | Real-time water-quality monitoring (temperature, pH, dissolved oxygen, turbidity, ammonia) with Blynk, ThingSpeak and Twilio SMS alerts, plus remote control of aerators, feeders and pumps | C++ · Arduino IDE · Blynk · ThingSpeak · Twilio | [Repo](https://github.com/Hari-r31/IOT-Based-Fish-Pond-Monitoring-its-Production-Enhancement-System) |
+| **AI Plant Doctor** *(May 2025 – Present)* | ESP32 with DHT11, soil-moisture and LDR sensors sends data to Supabase via REST; a FastAPI backend runs AI leaf-disease detection; a React.js dashboard shows live sensor stats, image uploads, alerts and disease history | ESP32 · FastAPI · React · Supabase · Vercel · Render | [Repo](https://github.com/Hari-r31/smart-plant-doctor) |
+| **NodeMCU WiFi-Controlled Car** *(Feb – Mar 2023)* | NodeMCU (ESP8266) and L298N motor driver, controlled through the Blynk app | C++ · Arduino IDE · Blynk | [Repo](https://github.com/Hari-r31/Node-MCU-Based-Mobile-Controlled-Car-Through-WIFI) |
+| **BMS Dashboard & Firmware** | Web monitoring dashboard paired with embedded device firmware | TypeScript · C++ · C | [Dashboard](https://github.com/Hari-r31/bms-dashboard) · [Firmware](https://github.com/Hari-r31/BMS_Firmware) |
+| **AI Smart Traffic System** | Simulated AI traffic-signal control: virtual IoT sensors over MQTT, reinforcement learning (Q-learning), multi-intersection coordination, weather / pedestrian / emergency handling and a Node-RED dashboard | Python · MQTT · Reinforcement Learning · Node-RED | [Repo](https://github.com/Hari-r31/ai_smart_traffic_system) |
+| **Conversational AI FAQ Bot** | Command-line bot that answers questions from a predefined FAQ set using a LangGraph flow | Python · LangGraph | [Repo](https://github.com/Hari-r31/Conversational-AI-Simple-FAQ-Bot-LangGraph-) |
+| **VIET Campus Kiosk** (Navigation Bot) | Multilingual (English / Telugu / Hindi) touch-screen kiosk for VIET: campus navigation, fee information, a voice-enabled Gemini AI assistant and QR handoff of directions to a phone | React · TypeScript · Vite · Tailwind CSS · Google Gemini · Python · Docker | [Frontend](https://github.com/Hari-r31/VIET_Navigation_Bot) · [Backend](https://github.com/Hari-r31/VIET_Navigation_Bot_backend) · [Live](https://viet-navigation-bot.vercel.app) |
+
 ## 📄 Publications
 
 - **Monitoring of Fish Pond Based on IoT & its Enhanced Production System**: International Journal of All Research Education & Scientific Methods (IJARESM), Vol. 12, Issue 6, June 8, 2024.
