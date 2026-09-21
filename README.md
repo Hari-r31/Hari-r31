@@ -64,7 +64,7 @@ I'm **Hari Sai Kumar Thatholu**, a Software Engineer at **Conflowence** based in
 
 ## 💼 Experience
 
-### Conflowence · Chicago, IL
+### Conflowence · Remote
 *April 2025 – Present*
 
 **Software Engineer** · May 2026 – Present
