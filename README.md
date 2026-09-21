@@ -40,7 +40,7 @@ I design and build production-ready web applications, backend systems, SaaS plat
 
 <table align="center" width="100%">
 <tr>
-<td align="center" width="20%"><h2>10</h2>live products &<br>client websites</td>
+<td align="center" width="20%"><h2>11</h2>live products &<br>client websites</td>
 <td align="center" width="20%"><h2>~40</h2>engineers &<br>students mentored</td>
 <td align="center" width="20%"><h2>3</h2>countries served<br>India · USA · Australia</td>
 <td align="center" width="20%"><h2>Prod</h2>deployments,<br>CI/CD & monitoring</td>
@@ -85,7 +85,7 @@ I design and build production-ready web applications, backend systems, SaaS plat
 
 ## Selected work
 
-Six flagship projects, each shown as **problem → what I built → engineering challenges → result**.
+Five flagship projects, each shown as **problem → what I built → engineering challenges → result**.
 
 ### 1 · Hadha: E-commerce platform · [hadha.co](https://hadha.co/)
 
@@ -164,30 +164,7 @@ flowchart TD
 
 ---
 
-### 3 · Periscope: AI & security platform · *Conflowence*
-
-**Problem.** Leaked secrets in code and systems are hard to find, hard to tell apart from noise, and hard to drive to remediation.
-
-**My role.** Backend engineer on the AI-driven workflows (Python, FastAPI).
-
-**What I built**
-- **Secret detection:** regex-based detection, **Shannon entropy** and **context scoring** to cut false positives
-- **Secret validators** that check whether a finding is live: AWS STS, GitHub, Stripe, Azure
-- **Remediation and escalation workflows** with full **finding lifecycle management**
-- **OpenAI-powered** workflows with structured, production-ready LLM responses
-- Secret management with **OpenBao / HashiCorp Vault**
-
-**Related security work.** Valhuntir / SIFT / OpenSearch proof of concept · Akmatori exploration · MCP · forensic workflows.
-
-**Engineering challenges.** Separating real secrets from noise · validating credentials safely · turning findings into trackable, escalatable work.
-
-**Result.** A workflow that moves from detection to validated finding to remediation.
-
-**Stack.** Python · FastAPI · PostgreSQL · OpenAI API · OpenBao / Vault · Docker · GitHub Actions
-
----
-
-### 4 · VPD FrontDesk: Appointment platform · [frontdesk.vpdtechnologies.com](https://frontdesk.vpdtechnologies.com/)
+### 3 · VPD FrontDesk: Appointment platform · [frontdesk.vpdtechnologies.com](https://frontdesk.vpdtechnologies.com/)
 
 **Problem.** Visitors want to book time with the right person quickly, while reception and staff need control over availability.
 
@@ -208,7 +185,7 @@ flowchart TD
 
 ---
 
-### 5 · Data ingestion pipelines · *Conflowence*
+### 4 · Data ingestion pipelines · *Conflowence*
 
 **Problem.** Data arrives in inconsistent formats, with drifting schemas, missing headers and malformed rows, and still has to be processed reliably.
 
@@ -226,7 +203,7 @@ flowchart TD
 
 ---
 
-### 6 · Production infrastructure & observability
+### 5 · Production infrastructure & observability
 
 **Problem.** Applications in production need to be deployable, observable and debuggable, not just working on a laptop.
 
@@ -273,6 +250,7 @@ ESP32 sensors ──REST──▶ Supabase ◀── FastAPI (AI leaf-disease de
 | **[MMP Consultants](https://www.mmpconsultants.com.au/)** 🇦🇺 | Consulting & project support services | React · Vite · Vercel |
 | **[N Farms Staycation](https://nfarms.netlify.app/)** 🇮🇳 | Luxury farmstay resort in Moinabad, Telangana | Next.js · Tailwind CSS · Razorpay · Netlify |
 | **[Prolift Badminton Academy](https://proliftacademy.netlify.app/)** 🇮🇳 | Training academy in Bangalore | Next.js · Tailwind CSS · Cloudinary · Netlify |
+| **[Sri Jyothi Travels](https://sri-jyothi-travels.vercel.app/)** 🇮🇳 | Taxi service in Palakollu, Andhra Pradesh: airport and railway-station transfers, local rides and outstation trips, in Telugu, Hindi and English | React · Vite · TanStack · Lucide · Vercel |
 
 <details>
 <summary><b>Archive: student projects & mentorship</b> (B.Tech projects built for students as a freelancer, plus mentoring)</summary>
@@ -334,7 +312,7 @@ Figma designs · PRDs and requirements · existing repositories · bug lists · 
 | --- | --- |
 | 🇺🇸 **USA** | M&A Construction Services LLC |
 | 🇦🇺 **Australia** | TechGigz Australia · MMP Consultants |
-| 🇮🇳 **India** | Hadha · N Farms Staycation · Prolift Badminton Academy · Tournament365 · VPD Technologies |
+| 🇮🇳 **India** | Hadha · N Farms Staycation · Prolift Badminton Academy · Sri Jyothi Travels · Tournament365 · VPD Technologies |
 
 ## Production engineering
 
@@ -421,7 +399,7 @@ Everything I've worked with, organized by depth: **core stack**, **strong workin
 | **CI/CD & DevOps** | Git · GitHub · GitHub Actions · CI/CD · GHCR · Docker image builds · Multi-architecture images · Automated deployment · SSH-based deployment · SCP deployment · Vercel and Render deployment · Environment configuration · Production / staging environments · Database migrations during deployment · Alembic · Production troubleshooting |
 | **Observability** | Prometheus · Grafana · Loki · Promtail · Node Exporter · cAdvisor · Redis Exporter · Uptime Kuma · Dozzle · Grafana dashboards · Structured logging · Request IDs · Trace IDs · Error tracking |
 | **Error tracking** | Sentry · GlitchTip · Sentry JavaScript SDK · Sentry / FastAPI integration |
-| **Security** | Secret detection · Regex-based detection · Shannon entropy · Context scoring · Secret validators (AWS STS, GitHub, Stripe, Azure) · Secret remediation workflows · Escalation workflows · Finding lifecycle management · OpenBao · HashiCorp Vault · Authentication · Authorization · RBAC · RLS · IDOR / BOLA testing · SaaS tenant isolation |
+| **Security** | Secret detection · Regex-based detection · Shannon entropy · Context scoring · Secret validators · Secret remediation workflows · Escalation workflows · Finding lifecycle management · OpenBao · HashiCorp Vault · Authentication · Authorization · RBAC · RLS · IDOR / BOLA testing · SaaS tenant isolation |
 | **Security platforms & work** | Periscope · Valhuntir · SIFT · OpenSearch · Akmatori exploration · MCP · Forensic workflows |
 | **E-commerce** | Product catalog · Product variants · Inventory · Inventory reservations · Cart · Checkout · Orders · Admin panels · Customer accounts · Delivery workflows |
 | **Payments & integrations** | Razorpay · Payment verification · Payment workflows · Resend · Twilio · Delivery APIs · Supabase Auth · Google OAuth · Cloudflare R2 / CDN · OpenAI API |
