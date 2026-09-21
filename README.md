@@ -1,38 +1,31 @@
-<div align="center">
+<table width="100%">
+<tr>
+<td width="36%" align="center" valign="middle">
+<img src="./assets/profile.jpg" width="100%" alt="Hari Sai Kumar Thatholu">
+</td>
+<td width="64%" valign="middle">
 
-<img src="./assets/profile.jpg" width="190" alt="Hari Sai Kumar Thatholu">
+<h3>Hari Sai Kumar Thatholu</h3>
 
-<h1>Hari Sai Kumar Thatholu</h1>
-
-<h3>Software Engineer · Full-Stack & Backend<br>AI Systems · Solution Architecture</h3>
-
+<b>Software Engineer · Full-Stack & Backend<br>AI Systems · Solution Architecture</b>
+<br>
 <a href="https://github.com/Hari-r31">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=2800&pause=900&color=2F81F7&center=true&vCenter=true&width=380&lines=Requirements+%E2%86%92+Architecture+%E2%86%92+Production;Full-Stack+%26+Backend+Engineering;AI+%26+LLM+Integrations;SaaS%2C+E-commerce+%26+Internal+Tools" alt="Typing SVG">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=13&duration=2800&pause=900&color=2F81F7&center=false&vCenter=true&width=260&height=28&lines=Requirements+%E2%86%92+Architecture+%E2%86%92+Production;Full-Stack+%26+Backend+Engineering;AI+%26+LLM+Integrations;SaaS%2C+E-commerce+%26+Internal+Tools" alt="Typing SVG">
 </a>
+<br>
+<sub>I design and build production-ready web applications, backend systems, SaaS platforms and AI-powered products, from requirements and architecture through development, deployment and ongoing improvements.</sub>
+<br><br>
+<sub><b>I work with startups, businesses and engineering teams to turn product requirements into reliable software.</b></sub>
+<br><br>
+<a href="https://hari-r31.github.io/Portfolio/"><img src="https://img.shields.io/badge/Portfolio-161B22?style=flat-square&logo=google-chrome&logoColor=2F81F7" alt="Portfolio"></a>
+<a href="https://www.linkedin.com/in/harisaithatholu"><img src="https://img.shields.io/badge/LinkedIn-161B22?style=flat-square&logo=linkedin&logoColor=2F81F7" alt="LinkedIn"></a>
+<a href="https://github.com/Hari-r31"><img src="https://img.shields.io/badge/GitHub-161B22?style=flat-square&logo=github&logoColor=2F81F7" alt="GitHub"></a>
 
-<p>
-I design and build production-ready web applications, backend systems, SaaS platforms and AI-powered products, from requirements and architecture through development, deployment and ongoing improvements.
-</p>
+</td>
+</tr>
+</table>
 
-<p>
-<b>I work with startups, businesses and engineering teams to turn product requirements into reliable software.</b>
-</p>
-
-<p>
-  <a href="https://hari-r31.github.io/Portfolio/">
-    <img src="https://img.shields.io/badge/Portfolio-161B22?style=for-the-badge&logo=google-chrome&logoColor=2F81F7" alt="Portfolio">
-  </a>
-  <a href="https://www.linkedin.com/in/harisaithatholu">
-    <img src="https://img.shields.io/badge/LinkedIn-161B22?style=for-the-badge&logo=linkedin&logoColor=2F81F7" alt="LinkedIn">
-  </a>
-  <a href="https://github.com/Hari-r31">
-    <img src="https://img.shields.io/badge/GitHub-161B22?style=for-the-badge&logo=github&logoColor=2F81F7" alt="GitHub">
-  </a>
-</p>
-
-<sub>📍 Based in India · Available for remote projects</sub>
-
-</div>
+<p align="center"><sub>📍 Based in India · Available for remote projects</sub></p>
 
 <div align="center">
 
