@@ -7,7 +7,7 @@
 <h3>Software Engineer · Full-Stack & Backend · AI Systems · Solution Architecture</h3>
 
 <a href="https://github.com/Hari-r31">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=EF93C4&center=false&vCenter=true&width=520&lines=Requirements+%E2%86%92+Architecture+%E2%86%92+Production;Full-Stack+%26+Backend+Engineering;AI+%26+LLM+Integrations;SaaS%2C+E-commerce+%26+Internal+Tools" alt="Typing SVG">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=2F81F7&center=false&vCenter=true&width=520&lines=Requirements+%E2%86%92+Architecture+%E2%86%92+Production;Full-Stack+%26+Backend+Engineering;AI+%26+LLM+Integrations;SaaS%2C+E-commerce+%26+Internal+Tools" alt="Typing SVG">
 </a>
 
 <p>
@@ -20,13 +20,13 @@ I design and build production-ready web applications, backend systems, SaaS plat
 
 <p>
   <a href="https://hari-r31.github.io/Portfolio/">
-    <img src="https://img.shields.io/badge/Portfolio-161B22?style=for-the-badge&logo=google-chrome&logoColor=EF93C4" alt="Portfolio">
+    <img src="https://img.shields.io/badge/Portfolio-161B22?style=for-the-badge&logo=google-chrome&logoColor=2F81F7" alt="Portfolio">
   </a>
   <a href="https://www.linkedin.com/in/harisaithatholu">
-    <img src="https://img.shields.io/badge/LinkedIn-161B22?style=for-the-badge&logo=linkedin&logoColor=EF93C4" alt="LinkedIn">
+    <img src="https://img.shields.io/badge/LinkedIn-161B22?style=for-the-badge&logo=linkedin&logoColor=2F81F7" alt="LinkedIn">
   </a>
   <a href="https://github.com/Hari-r31">
-    <img src="https://img.shields.io/badge/GitHub-161B22?style=for-the-badge&logo=github&logoColor=EF93C4" alt="GitHub">
+    <img src="https://img.shields.io/badge/GitHub-161B22?style=for-the-badge&logo=github&logoColor=2F81F7" alt="GitHub">
   </a>
 </p>
 
@@ -40,12 +40,12 @@ I design and build production-ready web applications, backend systems, SaaS plat
 
 <h3><i>I don't just build features. I take ownership of the system from requirement to production.</i></h3>
 
-<img src="https://img.shields.io/badge/11-LIVE%20PRODUCTS%20%26%20CLIENT%20SITES-161B22?style=for-the-badge&labelColor=EF93C4&color=161B22" alt="11 live products and client sites">
-<img src="https://img.shields.io/badge/~40-ENGINEERS%20%26%20STUDENTS%20MENTORED-161B22?style=for-the-badge&labelColor=EF93C4&color=161B22" alt="About 40 engineers and students mentored">
+<img src="https://img.shields.io/badge/11-LIVE%20PRODUCTS%20%26%20CLIENT%20SITES-161B22?style=for-the-badge&labelColor=2F81F7&color=161B22" alt="11 live products and client sites">
+<img src="https://img.shields.io/badge/~40-ENGINEERS%20%26%20STUDENTS%20MENTORED-161B22?style=for-the-badge&labelColor=2F81F7&color=161B22" alt="About 40 engineers and students mentored">
 <br>
-<img src="https://img.shields.io/badge/3-COUNTRIES%3A%20INDIA%20%C2%B7%20USA%20%C2%B7%20AUSTRALIA-161B22?style=for-the-badge&labelColor=EF93C4&color=161B22" alt="3 countries: India, USA, Australia">
-<img src="https://img.shields.io/badge/PRODUCTION-CI%2FCD%20%26%20MONITORING-161B22?style=for-the-badge&labelColor=EF93C4&color=161B22" alt="Production deployments, CI/CD and monitoring">
-<img src="https://img.shields.io/badge/2-PUBLISHED%20RESEARCH%20PAPERS-161B22?style=for-the-badge&labelColor=EF93C4&color=161B22" alt="2 published research papers">
+<img src="https://img.shields.io/badge/3-COUNTRIES%3A%20INDIA%20%C2%B7%20USA%20%C2%B7%20AUSTRALIA-161B22?style=for-the-badge&labelColor=2F81F7&color=161B22" alt="3 countries: India, USA, Australia">
+<img src="https://img.shields.io/badge/PRODUCTION-CI%2FCD%20%26%20MONITORING-161B22?style=for-the-badge&labelColor=2F81F7&color=161B22" alt="Production deployments, CI/CD and monitoring">
+<img src="https://img.shields.io/badge/2-PUBLISHED%20RESEARCH%20PAPERS-161B22?style=for-the-badge&labelColor=2F81F7&color=161B22" alt="2 published research papers">
 
 </div>
 
@@ -218,7 +218,7 @@ flowchart TD
 | Project | What it is | Stack |
 | --- | --- | --- |
 | **[Tournament365](https://tournament365.in/)** | SaaS-based ERP for tournament management, self-hosted on Ubuntu / Nginx | Angular · Bootstrap · Nginx |
-| **[AI Plant Doctor](https://github.com/Hari-r31/smart-plant-doctor)** *(May 2025 · Completed)* | End-to-end smart agriculture: ESP32 with DHT11, soil-moisture and LDR sensors sends data to Supabase via REST; FastAPI runs AI leaf-disease detection; React dashboard shows live stats, image uploads, alerts and disease history | ESP32 · FastAPI · React · Supabase (storage + RLS) · TensorFlow / Keras · Vercel · Render |
+| **[AI Plant Doctor](https://github.com/Hari-r31/smart-plant-doctor)** | End-to-end smart agriculture: ESP32 with DHT11, soil-moisture and LDR sensors sends data to Supabase via REST; FastAPI runs AI leaf-disease detection; React dashboard shows live stats, image uploads, alerts and disease history | ESP32 · FastAPI · React · Supabase (storage + RLS) · TensorFlow / Keras · Vercel · Render |
 
 ```text
 ESP32 sensors ──REST──▶ Supabase ◀── FastAPI (AI leaf-disease detection) ──▶ React dashboard
