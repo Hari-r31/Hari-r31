@@ -93,6 +93,25 @@ Freelance engagement leading delivery of software projects end to end, from prod
 - **Project management:** own delivery from PRD through development, testing and deployment to go-live.
 - **Team mentoring:** mentor around **40 people** across frontend, backend, database, testing/QA and deployment.
 
+### Electric 2- & 3-Wheeler Technician · Part-time
+*2021 – 2024*
+
+Hands-on technician for electric two- and three-wheeler vehicles, handling repairs from first diagnosis to final delivery back to the customer.
+
+- **End-to-end repair:** inspected vehicles, diagnosed faults across the electrical and mechanical systems, carried out the repair and fitted replacement parts.
+- **Electrical systems:** worked on wiring, batteries, chargers, motors and controllers, tracing faults and restoring reliable operation.
+- **Fixings & servicing:** routine servicing and fitting of components so vehicles were safe and ready for the road.
+- **Alongside my studies:** worked part-time during my Diploma and B.Tech in Electronics & Communication Engineering.
+
+### Data Entry Operator · Bank Valuer Office, Palakol · Part-time
+*2018 – 2024*
+
+Started part-time work right after 10th class, alongside my studies, at a bank valuer's office in Palakol serving several private and government banks.
+
+- **Valuation data entry:** entered and maintained valuation records and report details for private and government bank clients, working to bank formats.
+- **Accuracy & documentation:** checked figures and details before submission and kept records organized so reports could be issued on time.
+- **Long-term reliability:** six years of continuous work alongside my Diploma and B.Tech, building discipline, attention to detail and a habit of working to deadlines.
+
 ## 🛠️ Skills
 
 | Area | Technologies |
@@ -108,6 +127,7 @@ Freelance engagement leading delivery of software projects end to end, from prod
 | **Testing & Tools** | Pytest · Postman · CI/CD pipelines · QA · Code reviews · VS Code |
 | **IoT & Embedded** | ESP32 · NodeMCU (ESP8266) · Arduino IDE · Blynk · ThingSpeak · Twilio · Sensors · VLSI |
 | **Leadership & Process** | Solution architecture · Project management · Mentoring · Code reviews · Sprint planning |
+| **Hands-on & Other** | Electric 2- & 3-wheeler repair and diagnostics · Electrical wiring, batteries & motors · Data entry & documentation |
 
 ## 🎓 Education
 
