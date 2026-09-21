@@ -145,7 +145,7 @@ Products and websites I designed and built as a freelancer, from requirements to
 
 ## 🎓 Student Projects & Mentorship
 
-Built B.Tech projects for students as a developer, and mentored students through their M.Tech projects.
+Built B.Tech projects for students as a freelancer, and mentored students through their B.Tech projects.
 
 | Project | Details | Stack | Links |
 | --- | --- | --- | --- |
