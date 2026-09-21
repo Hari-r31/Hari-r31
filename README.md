@@ -93,7 +93,7 @@ I design and build production-ready web applications, backend systems, SaaS plat
 
 ## Selected work
 
-Four flagship projects, each shown as **problem → what I built → engineering challenges → result**.
+Five flagship projects, each shown as **problem → what I built → engineering challenges → result**.
 
 ### 1 · Hadha: E-commerce platform · [hadha.co](https://hadha.co/)
 
@@ -172,7 +172,59 @@ flowchart TD
 
 ---
 
-### 3 · VPD FrontDesk: Appointment platform · [frontdesk.vpdtechnologies.com](https://frontdesk.vpdtechnologies.com/)
+### 3 · Vorkhurry: Multi-tenant project & work-management platform
+
+**Problem.** Teams need Jira / Linear-style project and issue tracking that is fast, keyboard-friendly and predictable, with strong permissions, a reliable activity history, and hard isolation between organizations.
+
+**My role.** Architecture and full-stack engineering, from data model and API design through frontend, CI/CD and deployment.
+
+**What I built**
+- **Modular monolith:** FastAPI backend, PostgreSQL 17, Redis and Celery workers, with **two separate Next.js 15 frontends**: the tenant-facing app and an internal admin control plane.
+- **Issue and project workflow:** boards with drag-and-drop, backlog and sprints, bulk operations that report partial failures, comments, attachments through presigned uploads, activity feeds, documents, work logs, an **automation rules engine** and reports.
+- **Multi-tenancy enforced in four independent layers:** a tenant column on every table, request-scoped tenant context, tenant-scoped repositories, and **PostgreSQL row-level security** as a backstop. Cross-tenant access returns 404, never 403, so resource existence can't be probed.
+- **Authentication:** short-lived JWT access tokens, **rotating refresh tokens with reuse detection** that revokes the whole session family, tokens kept in HttpOnly cookies behind a backend-for-frontend proxy, TOTP two-factor authentication, OAuth with PKCE and CSRF protection.
+- **Authorization:** a permission catalogue, tenant-defined custom roles, per-user allow / deny overrides where deny always wins, and cached permission sets invalidated by a single version bump.
+- **Realtime updates** over WebSockets, with channel access authorized server-side on every subscribe.
+- **Background processing:** Celery queues for email, notifications, reports and maintenance, with idempotent jobs and narrow, backoff-based retries.
+- **Protection and traceability:** sliding-window rate limiting in Redis plus an Nginx layer, RFC 9457 error responses, and separate activity and compliance audit logs.
+- **Observability:** structured JSON logs carrying request, organization and user IDs, Prometheus metrics, Grafana provisioning, liveness and readiness health endpoints.
+
+**Architecture**
+
+```mermaid
+flowchart TD
+    W[Next.js web app] --> BFF[BFF proxy: HttpOnly cookies]
+    C[Next.js control plane] --> API
+    BFF --> API[FastAPI: routes → services → repositories]
+    API --> PG[(PostgreSQL 17 + RLS)]
+    API --> R[(Redis: cache · rate limits · locks)]
+    API --> Q[Celery workers]
+    Q --> R
+    API -. WebSocket events .-> W
+```
+
+**Engineering decisions**
+
+| Problem | Decision |
+| --- | --- |
+| One tenant must never see another's data | Four independent isolation layers, with 404 instead of 403 across tenants |
+| A stolen refresh token stays valuable | Rotation with reuse detection: replaying a used token revokes the whole session |
+| List endpoints slow down as tables grow | Keyset cursor pagination and no per-page total counts |
+| A cache outage must not become an application outage | Every Redis read and write fails open and can be rebuilt from PostgreSQL |
+| Rapid double-clicks sent duplicate mutations | A synchronous ref guard on top of `isPending`, found by an end-to-end test and applied across the app |
+| Layering erodes over time | Import contracts checked in CI, so a violation fails the build |
+
+**Quality & delivery.** CI gates on linting, formatting, import-layer contracts, type checking, backend tests against real PostgreSQL and Redis, frontend unit tests, and a Playwright end-to-end suite of over 100 tests. Migrations run as a separate one-shot job, are checked for drift with `alembic check`, and are round-trip tested on every change. Deployed on Render with Supabase PostgreSQL through GitHub Actions.
+
+**Performance target.** Designed for 100 concurrent active users on constrained infrastructure, with load tests (Locust) and Prometheus histograms used to verify performance claims rather than assert them.
+
+**Result.** A production-grade, multi-tenant work-management platform with strict tenant isolation, layered security and the test and CI gates to keep it maintainable.
+
+**Stack.** Python · FastAPI · SQLAlchemy · Alembic · PostgreSQL 17 (RLS) · Redis · Celery · Next.js 15 · React · TypeScript · TanStack Query · Zustand · React Hook Form · Zod · Tailwind CSS · Playwright · Docker · GitHub Actions · Render · Supabase · Prometheus · Grafana
+
+---
+
+### 4 · VPD FrontDesk: Appointment platform · [frontdesk.vpdtechnologies.com](https://frontdesk.vpdtechnologies.com/)
 
 **Problem.** Visitors want to book time with the right person quickly, while reception and staff need control over availability.
 
@@ -193,7 +245,7 @@ flowchart TD
 
 ---
 
-### 4 · Production infrastructure & observability
+### 5 · Production infrastructure & observability
 
 **Problem.** Applications in production need to be deployable, observable and debuggable, not just working on a laptop.
 
@@ -367,8 +419,8 @@ Everything I've worked with, organized by depth: **core stack**, **strong workin
 
 | Area | Technologies |
 | --- | --- |
-| **Backend** | Python · FastAPI · Django · Django REST Framework · Node.js · Express.js · REST APIs · OpenAPI / Swagger · Pydantic · SQLAlchemy / Async SQLAlchemy · Async programming · WebSockets · JWT / OAuth2 · Authentication & authorization · Background workers / jobs |
-| **Frontend** | React · Next.js (App Router, server / client components, Next.js APIs) · TypeScript · JavaScript · Vite · Tailwind CSS · React Router · TanStack Query · Zustand · Recharts · Radix UI · shadcn/ui · Axios · Responsive UI development |
+| **Backend** | Python · FastAPI · Django · Django REST Framework · Node.js · Express.js · REST APIs · OpenAPI / Swagger · Pydantic · SQLAlchemy / Async SQLAlchemy · Async programming · WebSockets · JWT / OAuth2 · Authentication & authorization · Background workers / jobs · Celery |
+| **Frontend** | React · Next.js (App Router, server / client components, Next.js APIs) · TypeScript · JavaScript · Vite · Tailwind CSS · React Router · TanStack Query · Zustand · React Hook Form · Zod · Recharts · Radix UI · shadcn/ui · Axios · Responsive UI development |
 | **Databases** | PostgreSQL · Supabase · Redis · MySQL · MongoDB · Firebase / Firestore · Schema design · Migrations / Alembic · Row-level security (RLS) · Indexing & constraints · Query optimization · Transactions & concurrency |
 | **Languages** | Python · TypeScript · JavaScript · SQL |
 
@@ -384,11 +436,11 @@ Everything I've worked with, organized by depth: **core stack**, **strong workin
 | **CI/CD & DevOps** | Git · GitHub · GitHub Actions · CI/CD · GHCR · Docker image builds · Multi-architecture images · Automated deployment · SSH-based deployment · SCP deployment · Vercel and Render deployment · Environment configuration · Production / staging environments · Database migrations during deployment · Alembic · Production troubleshooting |
 | **Observability** | Prometheus · Grafana · Loki · Promtail · Node Exporter · cAdvisor · Redis Exporter · Uptime Kuma · Dozzle · Grafana dashboards · Structured logging · Request IDs · Trace IDs · Error tracking |
 | **Error tracking** | Sentry · GlitchTip · Sentry JavaScript SDK · Sentry / FastAPI integration |
-| **Security** | Secret detection · Regex-based detection · Shannon entropy · Context scoring · Secret validators · Secret remediation workflows · Escalation workflows · Finding lifecycle management · OpenBao · HashiCorp Vault · Authentication · Authorization · RBAC · RLS · IDOR / BOLA testing · SaaS tenant isolation |
+| **Security** | Secret detection · Regex-based detection · Shannon entropy · Context scoring · Secret validators · Secret remediation workflows · Escalation workflows · Finding lifecycle management · OpenBao · HashiCorp Vault · Authentication · Authorization · TOTP two-factor authentication · OAuth with PKCE · CSRF protection · Rate limiting · RBAC · RLS · IDOR / BOLA testing · SaaS tenant isolation |
 | **Security platforms & work** | Periscope · Valhuntir · SIFT · OpenSearch · Akmatori exploration · MCP · Forensic workflows |
 | **E-commerce** | Product catalog · Product variants · Inventory · Inventory reservations · Cart · Checkout · Orders · Admin panels · Customer accounts · Delivery workflows |
 | **Payments & integrations** | Razorpay · Payment verification · Payment workflows · Resend · Twilio · Delivery APIs · Supabase Auth · Google OAuth · Cloudflare R2 / CDN · OpenAI API |
-| **Testing & quality** | Pytest · Backend unit tests · Integration testing · E2E testing · Frontend unit testing · API testing · Postman · TypeScript checking · ESLint · CI test pipelines · Manual QA · Production validation |
+| **Testing & quality** | Pytest · Playwright · Vitest · Locust load testing · Backend unit tests · Integration testing · E2E testing · Frontend unit testing · API testing · Postman · TypeScript checking · ESLint · CI test pipelines · Manual QA · Production validation |
 | **Architecture & practices** | REST API architecture · Microservices · Monolithic applications · SaaS and multi-tenant architecture · Database architecture · API integration architecture · Authentication & authorization architecture · RBAC · RLS · Caching (Redis) · Concurrency · Inventory reservation systems · Background workers · Queue-based workflows · CDN architecture · Object storage · CI/CD architecture · Monitoring, logging and error-tracking architecture · Production deployment architecture · Security architecture |
 
 ### Project experience
