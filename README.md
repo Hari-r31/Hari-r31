@@ -57,7 +57,7 @@ I'm **Hari Sai Kumar Thatholu**, a Software Engineer at **Conflowence** based in
 </td>
 <td width="35%" align="center" valign="middle">
 
-<img src="https://skillicons.dev/icons?i=py,fastapi,django,postgres,supabase,docker,kubernetes,aws,azure,githubactions,spark,airflow,react,ts,cpp,arduino,git&perline=5&theme=dark" width="100%" alt="Tech stack">
+<img src="https://skillicons.dev/icons?i=py,fastapi,nodejs,django,postgres,supabase,docker,kubernetes,aws,azure,githubactions,spark,airflow,react,ts,cpp,arduino,git&perline=6&theme=dark" width="100%" alt="Tech stack">
 
 </td>
 </tr>
@@ -98,12 +98,13 @@ Freelance engagement leading delivery of software projects end to end, from prod
 | Area | Technologies |
 | --- | --- |
 | **Languages** | Python · TypeScript · JavaScript · C++ · HTML |
-| **Backend & APIs** | FastAPI · Django · Django REST Framework · REST APIs · JSON Schema · Authentication & authorization |
+| **Backend & APIs** | FastAPI · Node.js · Django · Django REST Framework · REST APIs · JSON Schema · Authentication & authorization |
 | **AI & LLM** | OpenAI API · Prompt workflows · Structured LLM responses · LangGraph · AI image classification (leaf-disease detection) |
 | **Data Engineering** | Data ingestion pipelines · Apache Spark · Airflow (DAGs) · AWS S3 Tables · Apache Iceberg · XML / fixed-width / delimited / Excel parsing |
 | **Databases** | PostgreSQL (Supabase) · MySQL · Schema design · Row-level security (RLS) |
-| **Cloud & DevOps** | Azure Functions · AWS S3 · Docker · Kubernetes · GitHub Actions (CI/CD) · Vercel · Render · OpenBao / HashiCorp Vault |
+| **Cloud & DevOps** | Git · GitHub · Azure Functions · AWS S3 · Docker · Kubernetes · GitHub Actions (CI/CD) · Vercel · Render · OpenBao / HashiCorp Vault |
 | **Frontend** | React.js · TypeScript · HTML |
+| **Mobile** | Mobile application development |
 | **Testing** | Pytest · CI/CD pipelines · QA |
 | **IoT & Embedded** | ESP32 · NodeMCU (ESP8266) · Arduino IDE · Blynk · ThingSpeak · Twilio · Sensors · VLSI |
 | **Leadership & Process** | Solution architecture · Project management · Mentoring · Code reviews · Sprint planning |
