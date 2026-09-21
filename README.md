@@ -38,13 +38,18 @@ I design and build production-ready web applications, backend systems, SaaS plat
 
 <h3><i>I don't just build features. I take ownership of the system from requirement to production.</i></h3>
 
-<table width="100%">
+<table>
 <tr>
-<td align="center" width="20%"><h3>11</h3><sub>Live products & client sites</sub></td>
-<td align="center" width="20%"><h3>~40</h3><sub>Engineers & students mentored</sub></td>
-<td align="center" width="20%"><h3>3</h3><sub>Countries: India, USA, Australia</sub></td>
-<td align="center" width="20%"><h3>Prod</h3><sub>Deployments, CI/CD & monitoring</sub></td>
-<td align="center" width="20%"><h3>2</h3><sub>Published research papers</sub></td>
+<td align="center" width="33%"><h3>11</h3><sub>Live products & client sites</sub></td>
+<td align="center" width="33%"><h3>~40</h3><sub>Engineers & students mentored</sub></td>
+<td align="center" width="33%"><h3>3</h3><sub>Countries: India, USA, Australia</sub></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td align="center" width="50%"><h3>Prod</h3><sub>Deployments, CI/CD & monitoring</sub></td>
+<td align="center" width="50%"><h3>2</h3><sub>Published research papers</sub></td>
 </tr>
 </table>
 
