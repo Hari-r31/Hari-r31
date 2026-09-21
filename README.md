@@ -85,7 +85,7 @@ Backend engineer building scalable APIs, microservices and data ingestion system
 
 | Institution | Program | Years |
 | --- | --- | --- |
-| **Visakha Institute of Engineering & Technology**, Narava | Master's degree, VLSI & Embedded Systems | Oct 2024 – May 2026 |
+| **Visakha Institute of Engineering & Technology**, Narava | Master's degree, VLSI & Embedded Systems | Oct 2024 – May 2026 ✅ Completed |
 | **QSpiders** (Software Testing Training Institute) | Python Full Stack Development Training | May 2024 – Feb 2025 |
 | **Visakha Institute of Engineering & Technology**, Narava | Bachelor of Technology, Electrical, Electronics and Communications Engineering | 2021 – 2024 |
 | **Sir C.V. Raman Polytechnic College**, Ullamparru | Diploma, Electronics and Communication Engineering | 2018 – 2021 |
