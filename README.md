@@ -49,6 +49,7 @@ I'm **Hari Sai Kumar Thatholu**, a Software Engineer at **Conflowence** based in
 - 🗃️ Data ingestion pipelines for fixed-width, delimited, XML and Excel data, on AWS S3 Tables & Apache Iceberg
 - 🐘 PostgreSQL (Supabase) schema design
 - ☁️ Azure Functions, GitHub Actions & Docker for CI/CD
+- 🧭 Freelance **Solutions Architect & Project Manager** at VPD Technologies, mentoring ~40 people across frontend, backend, database, QA and deployment
 - 🔌 Embedded & IoT projects, with an ECE background
 
 > **Building systems that are reliable under real-world conditions, not just in theory.**
@@ -80,6 +81,17 @@ Backend engineer building scalable APIs, microservices and data ingestion system
 - Support React.js integration and API debugging; take part in code reviews, sprint planning and production issue resolution.
 
 **Tech stack:** Python · FastAPI · PostgreSQL (Supabase) · Apache Spark · Airflow · AWS S3 Tables · Apache Iceberg · Azure Functions · GitHub Actions · Docker · Kubernetes · OpenBao / HashiCorp Vault · OpenAI API · Pytest
+
+### [VPD Technologies](https://vpdtechnologies.com) · Kurnool, India · Freelance
+*June 2026 – Present* · [LinkedIn](https://www.linkedin.com/company/vpdtechnologies/)
+
+**Solutions Architect & Project Manager**
+
+Freelance engagement leading delivery of software projects end to end, from product requirements (PRD) to live production websites and applications.
+
+- **Solution architecture:** design the architecture and technical approach for web apps, ERP systems, production-grade web applications, internal software tools and mobile applications.
+- **Project management:** own delivery from PRD through development, testing and deployment to go-live.
+- **Team mentoring:** mentor around **40 people** across frontend, backend, database, testing/QA and deployment.
 
 ## 🎓 Education
 
