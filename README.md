@@ -36,16 +36,19 @@ I design and build production-ready web applications, backend systems, SaaS plat
 
 </div>
 
----
+> **I don't just build features. I take ownership of the system from requirement to production.**
 
 <table align="center" width="100%">
 <tr>
-<td align="center" width="25%"><h2>10</h2>live products &<br>client websites</td>
-<td align="center" width="25%"><h2>~40</h2>engineers &<br>students mentored</td>
-<td align="center" width="25%"><h2>3</h2>countries served<br>India · USA · Australia</td>
-<td align="center" width="25%"><h2>2</h2>published<br>research papers</td>
+<td align="center" width="20%"><h2>10</h2>live products &<br>client websites</td>
+<td align="center" width="20%"><h2>~40</h2>engineers &<br>students mentored</td>
+<td align="center" width="20%"><h2>3</h2>countries served<br>India · USA · Australia</td>
+<td align="center" width="20%"><h2>Prod</h2>deployments,<br>CI/CD & monitoring</td>
+<td align="center" width="20%"><h2>2</h2>published<br>research papers</td>
 </tr>
 </table>
+
+---
 
 ## What I can take ownership of
 
@@ -55,12 +58,10 @@ I design and build production-ready web applications, backend systems, SaaS plat
 - **Admin dashboards & internal tools**, ERP systems
 - **E-commerce & payment systems**
 - **Cloud deployment, CI/CD & production infrastructure**
-- **Existing-system debugging, optimization and new features**
+- **Existing-system debugging, optimization and feature development**
 - **Mobile applications**
 
 **Available for:** project-based development · long-term engineering support · technical implementation
-
-> **I don't just build features. I take ownership of the system from requirement to production.**
 
 ## Core expertise
 
@@ -68,59 +69,201 @@ I design and build production-ready web applications, backend systems, SaaS plat
 | --- | --- |
 | **Backend & APIs** | Python · FastAPI · PostgreSQL · Redis |
 | **Full-stack applications** | React · Next.js · TypeScript · Tailwind CSS |
-| **AI products** | OpenAI API · LangGraph · Prompt workflows · Structured LLM responses |
-| **SaaS platforms** | Multi-tenant architecture · Role-based access · Row-level security |
+| **AI products** | OpenAI API · LangGraph · AI workflows · Structured LLM outputs |
+| **SaaS platforms** | Multi-tenant architecture · RBAC · Row-level security |
 | **Data systems** | Apache Spark · Airflow · AWS S3 Tables · Apache Iceberg |
-| **Cloud & DevOps** | Docker · GitHub Actions · AWS · Azure · Vercel |
+| **Cloud & DevOps** | Docker · GitHub Actions · AWS · Azure |
 | **Payments & integrations** | Razorpay · REST APIs · Third-party services |
 
-**Also experienced with:** Django & DRF · Node.js · Express · Angular · Vite · Supabase · MySQL · MongoDB · Firebase · Flutter · React Native · Kubernetes · Nginx · Cloudflare · Netlify · Render · Linux · OpenBao / Vault · Pytest · Postman · C++ · Arduino / ESP32 / NodeMCU
+**Also experienced with:** Django · Node.js · Angular · Flutter · MongoDB · Firebase · Kubernetes · Nginx · Cloudflare · and more, see the [full technology profile](#full-technology-profile) below.
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=py,fastapi,postgres,supabase,redis,react,nextjs,ts,nodejs,docker,aws,azure,githubactions,spark,airflow,git&perline=8&theme=dark" alt="Core tech stack">
+<img src="https://skillicons.dev/icons?i=py,fastapi,django,nodejs,postgres,supabase,redis,mongodb,firebase,react,nextjs,ts,tailwind,angular,flutter,docker,kubernetes,nginx,cloudflare,aws,azure,githubactions,spark,airflow,grafana,prometheus,sentry,linux,git,arduino&perline=10&theme=dark" alt="Tech stack">
 </div>
+
+---
 
 ## Selected work
 
-### Hadha · E-commerce platform · [hadha.co](https://hadha.co/)
-**Goal:** give a handcrafted 92.5 silver jewellery brand a complete online store it can run itself.
-**What I built:** product catalogs, end-to-end ordering, payment integration, delivery tracking and an admin panel.
-**Stack:** React · Vite · Supabase (PostgreSQL) · Zustand · TanStack Query · Radix UI · Recharts · Cloudflare
+Six flagship projects, each shown as **problem → what I built → engineering challenges → result**.
 
-### ExamPro · Multi-tenant examination SaaS · [exam-pro.tech](https://www.exam-pro.tech/)
-**Goal:** let organizations run recruitment tests, evaluations and certification exams securely online.
-**What I built:** a SaaS platform with layered exam guards and isolated data per organization.
-- Fullscreen lockdown: exams will not start outside fullscreen.
-- Tab-switch, blur and copy-attempt monitoring, with activity logs and warnings.
-- Timed exams with instant autosave plus 10-second interval saves.
-- Automatic scoring for multiple choice and manual review for written answers.
+### 1 · Hadha: E-commerce platform · [hadha.co](https://hadha.co/)
 
-**Stack:** React · Vite · Tailwind CSS · Radix UI · Supabase · Recharts · Vercel
+**Problem.** A handcrafted 92.5 silver jewellery business needed a modern e-commerce platform with product management, checkout, payments, delivery and administrative controls, one it could run by itself.
 
-### VPD FrontDesk · Appointment booking platform · [frontdesk.vpdtechnologies.com](https://frontdesk.vpdtechnologies.com/)
-**Goal:** let visitors book time with the right person without creating an account, while reception and staff stay in control.
-**What I built:** public booking flow with live availability re-checked at booking, 30-minute slots, staff sign-in and email confirmations.
-**Stack:** Next.js · React · Tailwind CSS · Radix UI · Vercel
+**My role.** Full-stack engineer and solution architect.
 
-### Tournament365 · SaaS-based ERP · [tournament365.in](https://tournament365.in/)
-**What I built:** a SaaS-based ERP for running and managing tournaments, deployed on a self-hosted Ubuntu / Nginx server.
-**Stack:** Angular · Bootstrap · Nginx
+**What I built**
+- Product catalog architecture with **product variants** and **inventory**
+- **Inventory reservations**, cart and checkout, order management
+- **Razorpay** payment integration with payment verification
+- **Delivery integration** and delivery tracking
+- Customer accounts and authentication (**Supabase Auth**, **Google OAuth**)
+- **Admin panel** for catalog, orders and operations
+- **CDN / media architecture** with Cloudflare R2
+- Database design, transactional email (Resend) and production deployment
 
-### Data ingestion pipelines · Conflowence
-**Goal:** reliably process structured and semi-structured data arriving in inconsistent formats.
-**What I built:** metadata-driven ingestion workflows for fixed-width, delimited, XML and Excel data that handle schema drift, missing headers and malformed records, with parser improvements and reprocessing on AWS S3 Tables and Apache Iceberg.
-**Stack:** Python · FastAPI · PostgreSQL (Supabase) · Spark · Airflow · AWS S3 Tables · Apache Iceberg
+**Architecture**
 
-### AI Plant Doctor · AI + IoT · [repo](https://github.com/Hari-r31/smart-plant-doctor)
-**What I built:** an end-to-end smart-agriculture solution. An ESP32 with DHT11, soil-moisture and LDR sensors sends readings to Supabase over REST, a FastAPI backend runs AI leaf-disease detection, and a React.js dashboard shows live sensor stats, image uploads, alerts and disease history.
+```mermaid
+flowchart TD
+    C[Customer] --> F[React frontend]
+    F --> A[API / application layer]
+    A --> D[(PostgreSQL / Supabase)]
+    A --> P[Razorpay payments]
+    A --> L[Delivery integration]
+    F --> M[Cloudflare R2 / CDN media]
+    AD[Admin panel] --> A
+```
+
+**Engineering challenges.** Concurrent inventory reservations · payment verification · media delivery · database consistency · authentication · production deployment.
+
+**Problem → Decision → Implementation → Result**
+
+| | |
+| --- | --- |
+| **Problem** | Multiple customers could try to buy the same limited-stock piece at the same time. |
+| **Decision** | Introduce short-lived inventory reservations with expiry and release. |
+| **Implementation** | A database-backed reservation flow, with worker-based expiry handling. |
+| **Result** | Overselling is prevented while checkout stays responsive. |
+
+**Result.** A production-ready e-commerce platform with the business workflows needed to sell and manage jewellery online.
+
+**Stack.** React · TypeScript · Vite · Supabase · PostgreSQL · Razorpay · Cloudflare (R2, CDN) · Zustand · TanStack Query · Radix UI · Recharts · Docker
+
+---
+
+### 2 · ExamPro: Multi-tenant examination SaaS · [exam-pro.tech](https://www.exam-pro.tech/)
+
+**Problem.** Organizations need to run recruitment tests, employee evaluations and certification exams online without losing exam integrity, and without one organization's data ever touching another's.
+
+**My role.** Full-stack engineer and solution architect.
+
+**What I built**
+- **Multi-tenant SaaS** where each organization's exams, candidates and results are completely isolated
+- **Layered exam guards:** fullscreen lockdown (exams will not start outside fullscreen); tab-switch, blur and copy-attempt monitoring with activity logs and warnings
+- **Timed exams with autosave:** instant saves plus 10-second interval saves
+- **Automatic scoring** for multiple choice and **manual review** for written answers
+
+**Architecture**
+
+```mermaid
+flowchart TD
+    O[Organization admin] --> W[React web app]
+    S[Candidate] --> W
+    W --> G[Exam guards: fullscreen · tab-switch · blur · copy]
+    W --> B[(Supabase / PostgreSQL with RLS)]
+    B --> R[Scoring & manual review]
+```
+
+**Engineering challenges.** SaaS tenant isolation (RLS) · authorization and IDOR/BOLA testing · enforcing exam integrity in the browser.
+
+**Result.** A secure exam platform an organization can use for hiring, evaluation and certification.
+
+**Stack.** React · Vite · TypeScript · Tailwind CSS · Radix UI · Supabase (PostgreSQL, RLS) · Recharts · Vercel
+
+---
+
+### 3 · Periscope: AI & security platform · *Conflowence*
+
+**Problem.** Leaked secrets in code and systems are hard to find, hard to tell apart from noise, and hard to drive to remediation.
+
+**My role.** Backend engineer on the AI-driven workflows (Python, FastAPI).
+
+**What I built**
+- **Secret detection:** regex-based detection, **Shannon entropy** and **context scoring** to cut false positives
+- **Secret validators** that check whether a finding is live: AWS STS, GitHub, Stripe, Azure
+- **Remediation and escalation workflows** with full **finding lifecycle management**
+- **OpenAI-powered** workflows with structured, production-ready LLM responses
+- Secret management with **OpenBao / HashiCorp Vault**
+
+**Related security work.** Valhuntir / SIFT / OpenSearch proof of concept · Akmatori exploration · MCP · forensic workflows.
+
+**Engineering challenges.** Separating real secrets from noise · validating credentials safely · turning findings into trackable, escalatable work.
+
+**Result.** A workflow that moves from detection to validated finding to remediation.
+
+**Stack.** Python · FastAPI · PostgreSQL · OpenAI API · OpenBao / Vault · Docker · GitHub Actions
+
+---
+
+### 4 · VPD FrontDesk: Appointment platform · [frontdesk.vpdtechnologies.com](https://frontdesk.vpdtechnologies.com/)
+
+**Problem.** Visitors want to book time with the right person quickly, while reception and staff need control over availability.
+
+**My role.** Full-stack engineer and solution architect.
+
+**What I built**
+- Public booking flow that needs **no account**
+- **Live availability, re-checked at booking** so slots cannot be double-booked
+- 30-minute slots within business hours, with timezone-aware display
+- **Staff sign-in** and reception management
+- **Email confirmations** for booked appointments
+
+**Engineering challenges.** Slot availability under concurrent bookings · timezone handling · authenticated staff area next to a public booking flow.
+
+**Result.** A working reception and appointment system for the company.
+
+**Stack.** Next.js · React · Tailwind CSS · Radix UI · Vercel
+
+---
+
+### 5 · Data ingestion pipelines · *Conflowence*
+
+**Problem.** Data arrives in inconsistent formats, with drifting schemas, missing headers and malformed rows, and still has to be processed reliably.
+
+**My role.** Backend / data engineer.
+
+**What I built**
+- **Metadata-driven ingestion pipelines** for **fixed-width, delimited, XML and Excel** data
+- **Schema-drift handling**, **malformed-record handling** and **reprocessing** so runs stay consistent
+- Improved parser logic and ingestion workflows integrated with **AWS S3 Tables and Apache Iceberg**
+- Schemas designed in **PostgreSQL (Supabase)**, balancing strict validation with flexibility for evolving data
+
+**Result.** Reliable reprocessing and consistent data handling across runs.
+
+**Stack.** Python · FastAPI · Apache Spark · Airflow (DAGs) · AWS S3 Tables · Apache Iceberg · PostgreSQL (Supabase)
+
+---
+
+### 6 · Production infrastructure & observability
+
+**Problem.** Applications in production need to be deployable, observable and debuggable, not just working on a laptop.
+
+**My role.** Infrastructure and DevOps.
+
+**What I built**
+- **VPS deployment** on Ubuntu with **Docker Compose**, **Nginx** reverse proxy and **Cloudflare** in front
+- **CI/CD** with GitHub Actions: Docker image builds, **multi-architecture images**, **GHCR**, and SSH / SCP deployment
+- **Database migrations during deployment** (Alembic) with production and staging environments
+- A complete **monitoring stack:** Prometheus, Grafana, Loki, Promtail, Node Exporter, cAdvisor, Redis Exporter, Uptime Kuma and Dozzle
+- **Error tracking** with Sentry and GlitchTip (Sentry JavaScript SDK and Sentry / FastAPI integration)
+- Structured logging with request IDs and trace IDs, container health checks and resource limits
+
+**Engineering challenges.** Debugging real monitoring problems, not just installing the tools · repeatable production deployments.
+
+**Result.** A production setup that can be deployed repeatably, watched, and debugged.
+
+**Stack.** Docker · Docker Compose · Nginx · Linux · Cloudflare · GitHub Actions · GHCR · Prometheus · Grafana · Loki · Sentry
+
+---
+
+## Project gallery
+
+### Products & platforms
+
+| Project | What it is | Stack |
+| --- | --- | --- |
+| **[Tournament365](https://tournament365.in/)** | SaaS-based ERP for tournament management, self-hosted on Ubuntu / Nginx | Angular · Bootstrap · Nginx |
+| **[AI Plant Doctor](https://github.com/Hari-r31/smart-plant-doctor)** *(May 2025 – Present)* | End-to-end smart agriculture: ESP32 with DHT11, soil-moisture and LDR sensors sends data to Supabase via REST; FastAPI runs AI leaf-disease detection; React dashboard shows live stats, image uploads, alerts and disease history | ESP32 · FastAPI · React · Supabase (storage + RLS) · TensorFlow / Keras · Vercel · Render |
+| **AI Recipe / Meal Scan** *(Conflowence)* | AI-driven backend workflows with OpenAI integrations | Python · FastAPI · OpenAI API |
+| **Mulegine AI** *(Conflowence)* | AI-driven backend workflows and structured response processing | Python · FastAPI · OpenAI API |
 
 ```text
 ESP32 sensors ──REST──▶ Supabase ◀── FastAPI (AI leaf-disease detection) ──▶ React dashboard
 ```
 
-**Stack:** ESP32 · FastAPI · React · Supabase (storage + RLS) · Vercel · Render
-
-### Business websites
+### Client & business websites
 
 | Site | About | Stack |
 | --- | --- | --- |
@@ -128,80 +271,11 @@ ESP32 sensors ──REST──▶ Supabase ◀── FastAPI (AI leaf-disease de
 | **[M&A Construction Services LLC](https://maconstruction-llc.com/)** 🇺🇸 | Construction estimating, BIM and project controls | React · Vite · Hostinger |
 | **[TechGigz Australia](https://www.techgigz.com.au/)** 🇦🇺 | Custom software development & IT solutions, Perth | React · Vite · Vercel |
 | **[MMP Consultants](https://www.mmpconsultants.com.au/)** 🇦🇺 | Consulting & project support services | React · Vite · Vercel |
-| **[N Farms Staycation](https://nfarms.netlify.app/)** | Luxury farmstay resort in Moinabad, Telangana | Next.js · Tailwind CSS · Razorpay · Netlify |
-| **[Prolift Badminton Academy](https://proliftacademy.netlify.app/)** | Training academy in Bangalore | Next.js · Tailwind CSS · Cloudinary · Netlify |
-
-## How I work
-
-1. **Understand.** I start with the business requirement, users, workflows and constraints.
-2. **Plan.** I break it into architecture, database design, APIs, frontend workflows and deployment needs.
-3. **Build.** I develop incrementally, with clear milestones and maintainable code.
-4. **Test.** I validate APIs, workflows, authentication, edge cases and critical business logic.
-5. **Deploy.** I handle production deployment, environment configuration and CI/CD.
-6. **Hand over.** I document the system so the client's team can understand and run it.
-
-### You can give me
-
-Figma designs · PRDs and requirements · existing repositories · bug lists · API specifications · database requirements · applications that need improvement · MVP and SaaS ideas · AI integration requirements
-
-### I take it from there
-
-**Requirement → Architecture → Development → Testing → Deployment**
-
-## Production engineering
-
-I don't stop at writing application code.
-
-| Area | What I work with |
-| --- | --- |
-| **Infrastructure** | Docker · Linux · Nginx · Cloudflare · VPS deployment · Vercel · Netlify · Render · AWS · Azure Functions |
-| **CI/CD** | GitHub Actions · automated builds and deployments · environment management |
-| **Security** | Authentication & authorization · JWT / OAuth2 · role-based access · row-level security · tenant isolation · secret management (OpenBao / HashiCorp Vault) |
-| **Quality** | Pytest · API and workflow testing · code reviews · production issue resolution |
-
-## Experience
-
-### Conflowence · Remote
-*April 2025 – Present*
-
-**Software Engineer** · May 2026 – Present
-**Associate Software Engineer** · April 2025 – May 2026
-
-Backend engineer building scalable APIs, microservices and data ingestion systems for application and AI-driven workflows.
-
-- Develop backend services with **Python and FastAPI**: REST APIs, business logic, authentication and third-party integrations, including OpenAI APIs.
-- Build **metadata-driven ingestion pipelines** for structured and semi-structured data (fixed-width, delimited, XML, Excel), handling schema drift, missing headers and malformed records. Improved parser logic and ingestion workflows integrated with **AWS S3 Tables and Apache Iceberg** for reliable reprocessing.
-- Design and manage schemas in **PostgreSQL (Supabase)**, balancing strict validation with flexibility for evolving data.
-- Worked on backend workflows for AI-driven features across **Periscope, AI Recipe App and Mulegine AI**: OpenAI integrations, prompt-based workflows and structured response processing.
-- **Cloud & DevOps:** Azure Functions, Supabase, GitHub Actions and Docker, focused on CI/CD, reliability and debuggable deployments.
-- Support React.js integration and API debugging; take part in code reviews, sprint planning and production issue resolution.
-
-**Tech stack:** Python · FastAPI · PostgreSQL (Supabase) · Apache Spark · Airflow · AWS S3 Tables · Apache Iceberg · Azure Functions · GitHub Actions · Docker · Kubernetes · OpenBao / HashiCorp Vault · OpenAI API · Pytest
-
-### [VPD Technologies](https://vpdtechnologies.com) · Kurnool, India · Freelance
-*June 2026 – Present* · [LinkedIn](https://www.linkedin.com/company/vpdtechnologies/)
-
-**Solutions Architect & Project Manager**
-
-Lead end-to-end delivery of software projects, combining hands-on engineering with architecture, technical planning, team coordination and production deployment, from product requirements (PRD) to live websites and applications.
-
-- **Solution architecture:** design the architecture and technical approach for web apps, ERP systems, production-grade web applications, internal software tools and mobile applications.
-- **Delivery:** own each project from PRD through development, testing and deployment to go-live.
-- **Team mentoring:** mentor around **40 people** across frontend, backend, database, testing/QA and deployment.
-
-### Earlier experience
-
-Before moving fully into software engineering, I worked part-time in technical and operational roles while completing my education.
-
-- **Electric 2- & 3-Wheeler Technician** · Part-time · 2021 – 2024: end-to-end repair of electric two- and three-wheelers, from diagnosis and fault-finding to fitting parts, covering wiring, batteries, chargers, motors and controllers.
-- **Data Entry Operator** · Bank Valuer Office, Palakol · Part-time · 2018 – 2024: valuation records and report data entry for private and government banks, with accuracy checks and record-keeping.
-
-## Engineering background
-
-My background spans embedded systems, software engineering, backend architecture and production infrastructure. That gives me a systems-oriented approach to software: understanding not only the application layer, but also the data, infrastructure and operational side of a product.
+| **[N Farms Staycation](https://nfarms.netlify.app/)** 🇮🇳 | Luxury farmstay resort in Moinabad, Telangana | Next.js · Tailwind CSS · Razorpay · Netlify |
+| **[Prolift Badminton Academy](https://proliftacademy.netlify.app/)** 🇮🇳 | Training academy in Bangalore | Next.js · Tailwind CSS · Cloudinary · Netlify |
 
 <details>
-<summary><b>Student projects & mentorship</b> (B.Tech projects built for students as a freelancer, plus mentoring)</summary>
+<summary><b>Archive: student projects & mentorship</b> (B.Tech projects built for students as a freelancer, plus mentoring)</summary>
 
 <br>
 
@@ -215,6 +289,163 @@ My background spans embedded systems, software engineering, backend architecture
 | **VIET Campus Kiosk** (Navigation Bot) | Multilingual (English / Telugu / Hindi) touch-screen kiosk for VIET: campus navigation, fee information, a voice-enabled Gemini AI assistant and QR handoff of directions to a phone | React · TypeScript · Vite · Tailwind CSS · Google Gemini · Python · Docker | [Frontend](https://github.com/Hari-r31/VIET_Navigation_Bot) · [Backend](https://github.com/Hari-r31/VIET_Navigation_Bot_backend) · [Live](https://viet-navigation-bot.vercel.app) |
 
 </details>
+
+---
+
+## How I work
+
+```mermaid
+flowchart LR
+    A[01 Understand] --> B[02 Plan] --> C[03 Build] --> D[04 Test] --> E[05 Deploy] --> F[06 Hand over]
+```
+
+| Step | What happens |
+| --- | --- |
+| **01 · Understand** | I start with the business requirement, users, workflows and constraints. |
+| **02 · Plan** | I break the requirement into architecture, database design, APIs, frontend workflows and deployment requirements. |
+| **03 · Build** | I develop incrementally with clear milestones and maintainable code. |
+| **04 · Test** | I validate APIs, workflows, authentication, edge cases and critical business logic. |
+| **05 · Deploy** | I handle production deployment, environment configuration, CI/CD and monitoring. |
+| **06 · Hand over** | I provide documentation and make the system understandable for the client's team. |
+
+### You can give me
+
+Figma designs · PRDs and requirements · existing repositories · bug lists · API specifications · database requirements · existing applications that need improvements · MVP ideas · SaaS concepts · AI integration requirements
+
+### I can take it from there
+
+**Requirement → Architecture → Development → Testing → Deployment**
+
+## Client & delivery experience
+
+- End-to-end project ownership
+- Requirements → production delivery
+- Experience working with distributed teams
+- Production deployments
+- Existing-system maintenance
+- API integrations
+- Documentation
+- Testing & QA
+- Post-launch support
+
+**Selected client work**
+
+| Region | Clients |
+| --- | --- |
+| 🇺🇸 **USA** | M&A Construction Services LLC |
+| 🇦🇺 **Australia** | TechGigz Australia · MMP Consultants |
+| 🇮🇳 **India** | Hadha · N Farms Staycation · Prolift Badminton Academy · Tournament365 · VPD Technologies |
+
+## Production engineering
+
+I don't stop at writing application code.
+
+| Area | What I work with |
+| --- | --- |
+| **Infrastructure** | Docker · Docker Compose · Linux (Ubuntu) · Nginx · Cloudflare · VPS deployment · Vercel · Render · Netlify · AWS · Azure |
+| **CI/CD** | GitHub Actions · automated builds · deployment pipelines · environment management · production / staging |
+| **Reliability** | Health checks · structured logging · monitoring · metrics · error tracking · Redis · database optimization |
+| **Security** | Authentication / authorization · RBAC · RLS · API security · secret management · tenant isolation |
+
+## Experience
+
+### [VPD Technologies](https://vpdtechnologies.com) · Kurnool, India · Freelance
+*June 2026 – Present* · [LinkedIn](https://www.linkedin.com/company/vpdtechnologies/)
+
+**Solutions Architect & Project Manager** · Full-stack engineering lead
+
+Lead end-to-end delivery of software projects, combining hands-on engineering with architecture, technical planning, team coordination and production deployment, from product requirements (PRD) to live websites and applications.
+
+- **Solution architecture:** design the architecture and technical approach for web apps, ERP systems, production-grade web applications, internal software tools and mobile applications.
+- **Delivery:** own each project from PRD through development, testing and deployment to go-live.
+- **Team mentoring:** mentor around **40 people** across frontend, backend, database, testing/QA and deployment.
+
+### Conflowence · Remote
+*April 2025 – Present*
+
+**Software Engineer** · May 2026 – Present
+**Associate Software Engineer** · April 2025 – May 2026
+
+Backend engineer building scalable APIs, microservices and data ingestion systems for application and AI-driven workflows.
+
+- Develop backend services with **Python and FastAPI**: REST APIs, business logic, authentication and third-party integrations, including OpenAI APIs.
+- Build **metadata-driven ingestion pipelines** for fixed-width, delimited, XML and Excel data, handling schema drift, missing headers and malformed records, on **AWS S3 Tables and Apache Iceberg**.
+- Design and manage schemas in **PostgreSQL (Supabase)**.
+- Worked on backend workflows for AI-driven features across **Periscope, AI Recipe App and Mulegine AI**: OpenAI integrations, prompt-based workflows and structured response processing.
+- **Cloud & DevOps:** Azure Functions, Supabase, GitHub Actions and Docker, focused on CI/CD, reliability and debuggable deployments.
+- Support React.js integration and API debugging; take part in code reviews, sprint planning and production issue resolution.
+
+**Tech stack:** Python · FastAPI · PostgreSQL (Supabase) · Apache Spark · Airflow · AWS S3 Tables · Apache Iceberg · Azure Functions · GitHub Actions · Docker · Kubernetes · OpenBao / HashiCorp Vault · OpenAI API · Pytest
+
+### Earlier experience
+
+Before moving fully into software engineering, I worked part-time in technical and operational roles while completing my education.
+
+- **Electric 2- & 3-Wheeler Technician** · Part-time · 2021 – 2024: end-to-end repair of electric two- and three-wheelers, from diagnosis and fault-finding to fitting parts, covering wiring, batteries, chargers, motors and controllers.
+- **Data Entry Operator** · Bank Valuer Office, Palakol · Part-time · 2018 – 2024: valuation records and report data entry for private and government banks, with accuracy checks and record-keeping.
+
+## Engineering background
+
+**I learned engineering from the ground up.**
+
+```text
+Diploma (ECE) → B.Tech (ECE) → M.Tech (VLSI & Embedded) → Technician → Software engineering → Solution architecture → Project leadership
+```
+
+My background spans embedded systems, software engineering, backend architecture and production infrastructure. That gives me a systems-oriented approach to software: understanding not only the application layer, but also the data, infrastructure and operational side of a product.
+
+---
+
+## Full technology profile
+
+Everything I've worked with, organized by depth: **core stack**, **strong working experience**, **project experience** and **supporting experience**.
+
+### Core stack
+
+| Area | Technologies |
+| --- | --- |
+| **Backend** | Python · FastAPI · Django · Django REST Framework · Node.js · Express.js · REST APIs · OpenAPI / Swagger · Pydantic · SQLAlchemy / Async SQLAlchemy · Async programming · WebSockets · JWT / OAuth2 · Authentication & authorization · Background workers / jobs |
+| **Frontend** | React · Next.js (App Router, server / client components, Next.js APIs) · TypeScript · JavaScript · Vite · Tailwind CSS · React Router · TanStack Query · Zustand · Recharts · Radix UI · shadcn/ui · Axios · Responsive UI development |
+| **Databases** | PostgreSQL · Supabase · Redis · MySQL · MongoDB · Firebase / Firestore · Schema design · Migrations / Alembic · Row-level security (RLS) · Indexing & constraints · Query optimization · Transactions & concurrency |
+| **Languages** | Python · TypeScript · JavaScript · SQL |
+
+### Strong working experience
+
+| Area | Technologies |
+| --- | --- |
+| **AI / LLM** | OpenAI API · LLM integrations · Prompt engineering · Structured LLM outputs · AI agents · LangGraph · AI workflows · Function / tool calling · AI-assisted backend workflows · AI image classification · CNN / TensorFlow / Keras · Leaf-disease detection · Google Gemini |
+| **AI projects** | AI Recipe / Meal Scan · AI Plant Doctor · Conversational AI FAQ · Periscope · Valhuntir / SIFT / OpenSearch POC · AI-driven backend workflows |
+| **Data engineering** | Apache Spark · Apache Airflow · AWS S3 Tables · Apache Iceberg · PostgreSQL · Data ingestion pipelines · ETL / data processing · Metadata-driven ingestion · Fixed-width, delimited, XML and Excel files · Schema-drift handling · Malformed-record handling · Data reprocessing |
+| **Cloud** | AWS · AWS S3 · AWS S3 Tables · Azure · Azure Functions · Supabase · Vercel · Render · Netlify · Firebase Hosting · Cloudflare |
+| **Infrastructure** | Docker · Docker Compose · Linux · Ubuntu · VPS · Nginx · Reverse proxies · Cloudflare · CDN · Cloudflare R2 · Docker networks · Docker volumes · Container health checks · Resource limits |
+| **CI/CD & DevOps** | Git · GitHub · GitHub Actions · CI/CD · GHCR · Docker image builds · Multi-architecture images · Automated deployment · SSH-based deployment · SCP deployment · Vercel and Render deployment · Environment configuration · Production / staging environments · Database migrations during deployment · Alembic · Production troubleshooting |
+| **Observability** | Prometheus · Grafana · Loki · Promtail · Node Exporter · cAdvisor · Redis Exporter · Uptime Kuma · Dozzle · Grafana dashboards · Structured logging · Request IDs · Trace IDs · Error tracking |
+| **Error tracking** | Sentry · GlitchTip · Sentry JavaScript SDK · Sentry / FastAPI integration |
+| **Security** | Secret detection · Regex-based detection · Shannon entropy · Context scoring · Secret validators (AWS STS, GitHub, Stripe, Azure) · Secret remediation workflows · Escalation workflows · Finding lifecycle management · OpenBao · HashiCorp Vault · Authentication · Authorization · RBAC · RLS · IDOR / BOLA testing · SaaS tenant isolation |
+| **Security platforms & work** | Periscope · Valhuntir · SIFT · OpenSearch · Akmatori exploration · MCP · Forensic workflows |
+| **E-commerce** | Product catalog · Product variants · Inventory · Inventory reservations · Cart · Checkout · Orders · Admin panels · Customer accounts · Delivery workflows |
+| **Payments & integrations** | Razorpay · Payment verification · Payment workflows · Resend · Twilio · Delivery APIs · Supabase Auth · Google OAuth · Cloudflare R2 / CDN · OpenAI API |
+| **Testing & quality** | Pytest · Backend unit tests · Integration testing · E2E testing · Frontend unit testing · API testing · Postman · TypeScript checking · ESLint · CI test pipelines · Manual QA · Production validation |
+| **Architecture & practices** | REST API architecture · Microservices · Monolithic applications · SaaS and multi-tenant architecture · Database architecture · API integration architecture · Authentication & authorization architecture · RBAC · RLS · Caching (Redis) · Concurrency · Inventory reservation systems · Background workers · Queue-based workflows · CDN architecture · Object storage · CI/CD architecture · Monitoring, logging and error-tracking architecture · Production deployment architecture · Security architecture |
+
+### Project experience
+
+| Area | Technologies |
+| --- | --- |
+| **Other frontend frameworks** | Angular · Bootstrap |
+| **Mobile** | React Native · Expo · Flutter · Dart · Firebase Authentication · Firebase Push Notifications |
+| **IoT & embedded hardware** | ESP32 · ESP8266 / NodeMCU · Arduino · Sensors (DHT11, soil moisture, LDR, pH, dissolved oxygen, turbidity, ammonia) · Motors · Controllers |
+| **IoT & embedded software** | C · C++ · Arduino IDE · Blynk · ThingSpeak · MQTT · Node-RED · Twilio |
+| **IoT projects** | Fish pond monitoring · AI Plant Doctor · Smart traffic system · WiFi-controlled vehicle · BMS dashboard / firmware |
+| **Other languages** | C · C++ · Dart · HTML · CSS |
+
+### Supporting experience
+
+| Area | Technologies |
+| --- | --- |
+| **Tools & workflow** | Git · GitHub · GitHub Actions · VS Code · Postman · Docker · Linux · Swagger / OpenAPI · Claude · OpenAI · MCP · Markdown / documentation · PR and code review workflows · Agile / sprint workflows |
+
+---
 
 ## Education & credentials
 
@@ -234,6 +465,8 @@ My background spans embedded systems, software engineering, backend architecture
 **Languages:** English (Professional working) · Telugu (Native or bilingual) · Hindi (Elementary)
 
 ## Let's work together
+
+**Give me a requirement. I can understand it, design it, build it, test it, deploy it, and communicate what I've done.**
 
 Have a project in mind, an existing system that needs work, or an idea that needs an engineer to own it?
 
