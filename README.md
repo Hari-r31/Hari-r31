@@ -15,6 +15,7 @@ I design and build production-ready web applications, backend systems, SaaS plat
 <a href="https://hari-r31.github.io/Portfolio/"><img src="https://img.shields.io/badge/Portfolio-161B22?style=flat-square&logo=google-chrome&logoColor=2F81F7" alt="Portfolio"></a>
 <a href="https://www.linkedin.com/in/harisaithatholu"><img src="https://img.shields.io/badge/LinkedIn-161B22?style=flat-square&logo=linkedin&logoColor=2F81F7" alt="LinkedIn"></a>
 <a href="https://github.com/Hari-r31"><img src="https://img.shields.io/badge/GitHub-161B22?style=flat-square&logo=github&logoColor=2F81F7" alt="GitHub"></a>
+<a href="mailto:harisaikumar06@gmail.com"><img src="https://img.shields.io/badge/Email-161B22?style=flat-square&logo=gmail&logoColor=2F81F7" alt="Email"></a>
 
 <br clear="both">
 
@@ -468,7 +469,10 @@ Everything I've worked with, organized by depth: **core stack**, **strong workin
 
 Have a project in mind, an existing system that needs work, or an idea that needs an engineer to own it?
 
-Reach me on [LinkedIn](https://www.linkedin.com/in/harisaithatholu) or through my [portfolio](https://hari-r31.github.io/Portfolio/).
+- **Email:** [harisaikumar06@gmail.com](mailto:harisaikumar06@gmail.com)
+- **Phone:** [+91 94911 47433](tel:+919491147433)
+- **LinkedIn:** [harisaithatholu](https://www.linkedin.com/in/harisaithatholu)
+- **Portfolio:** [hari-r31.github.io/Portfolio](https://hari-r31.github.io/Portfolio/)
 
 <br>
 
