@@ -16,6 +16,7 @@ I design and build production-ready web applications, backend systems, SaaS plat
 <a href="https://www.linkedin.com/in/harisaithatholu"><img src="https://img.shields.io/badge/LinkedIn-161B22?style=flat-square&logo=linkedin&logoColor=2F81F7" alt="LinkedIn"></a>
 <a href="https://github.com/Hari-r31"><img src="https://img.shields.io/badge/GitHub-161B22?style=flat-square&logo=github&logoColor=2F81F7" alt="GitHub"></a>
 <a href="mailto:harisaikumar06@gmail.com"><img src="https://img.shields.io/badge/Email-161B22?style=flat-square&logo=gmail&logoColor=2F81F7" alt="Email"></a>
+<a href="tel:+919491147433"><img src="https://img.shields.io/badge/Phone-161B22?style=flat-square&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzJGODFGNyIgZD0iTTYuNjIgMTAuNzlhMTUuMDUgMTUuMDUgMCAwIDAgNi41OSA2LjU5bDIuMi0yLjJhMSAxIDAgMCAxIDEuMDItLjI0IDExLjM2IDExLjM2IDAgMCAwIDMuNTcuNTcgMSAxIDAgMCAxIDEgMVYyMGExIDEgMCAwIDEtMSAxQTE3IDE3IDAgMCAxIDMgNGExIDEgMCAwIDEgMS0xaDMuNWExIDEgMCAwIDEgMSAxYzAgMS4yNS4yIDIuNDUuNTcgMy41N2ExIDEgMCAwIDEtLjI1IDEuMDJsLTIuMiAyLjJ6Ii8+PC9zdmc+" alt="Phone"></a>
 
 <br clear="both">
 
