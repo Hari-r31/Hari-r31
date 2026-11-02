@@ -28,7 +28,7 @@ I design and build production-ready web applications, backend systems, SaaS plat
 
 <table>
 <tr>
-<td align="center" width="33%"><h3>11</h3><sub>Live products & client sites</sub></td>
+<td align="center" width="33%"><h3>12</h3><sub>Live products & client sites</sub></td>
 <td align="center" width="33%"><h3>~40</h3><sub>Engineers & students mentored</sub></td>
 <td align="center" width="33%"><h3>3</h3><sub>Countries: India, USA, Australia</sub></td>
 </tr>
@@ -288,6 +288,7 @@ flowchart TD
 - **[N Farms Staycation](https://nfarms.netlify.app/)** 🇮🇳: Luxury farmstay resort in Moinabad, Telangana<br>*Stack:* Next.js · Tailwind CSS · Razorpay · Netlify
 - **[Prolift Badminton Academy](https://proliftacademy.netlify.app/)** 🇮🇳: Training academy in Bangalore<br>*Stack:* Next.js · Tailwind CSS · Cloudinary · Netlify
 - **[Sri Jyothi Travels](https://sri-jyothi-travels.vercel.app/)** 🇮🇳: Taxi service in Palakollu, Andhra Pradesh: airport and railway-station transfers, local rides and outstation trips, in Telugu, Hindi and English<br>*Stack:* React · Vite · TanStack · Lucide · Vercel
+- **[Eswar & Likhitha Wedding Invitation](https://eswar-wedding-invitation.vercel.app/)** 🇮🇳: Interactive digital wedding invitation in English and Telugu, built for phones and shared as a link: a tap-to-open temple welcome, a scratch card that reveals the date and starts a live countdown, event timings, venue map, one-tap call and WhatsApp contact, and background music<br>*Stack:* React · Vite · Tailwind CSS · Framer Motion · Vercel
 
 ### Archive: student projects & mentorship
 
@@ -340,7 +341,7 @@ Figma designs · PRDs and requirements · existing repositories · bug lists · 
 
 - 🇺🇸 **USA**: M&A Construction Services LLC
 - 🇦🇺 **Australia**: TechGigz Australia · MMP Consultants
-- 🇮🇳 **India**: Hadha · N Farms Staycation · Prolift Badminton Academy · Sri Jyothi Travels · Tournament365 · VPD Technologies
+- 🇮🇳 **India**: Hadha · N Farms Staycation · Prolift Badminton Academy · Sri Jyothi Travels · Tournament365 · VPD Technologies · Eswar & Likhitha Wedding Invitation
 
 ## Production engineering
 
@@ -413,7 +414,7 @@ Everything I've worked with, organized by depth: **core stack**, **strong workin
 ### Core stack
 
 - **Backend:** Python · FastAPI · Django · Django REST Framework · Node.js · Express.js · REST APIs · OpenAPI / Swagger · Pydantic · SQLAlchemy / Async SQLAlchemy · Async programming · WebSockets · JWT / OAuth2 · Authentication & authorization · Background workers / jobs · Celery
-- **Frontend:** React · Next.js (App Router, server / client components, Next.js APIs) · TypeScript · JavaScript · Vite · Tailwind CSS · React Router · TanStack Query · Zustand · React Hook Form · Zod · Recharts · Radix UI · shadcn/ui · Axios · Responsive UI development
+- **Frontend:** React · Next.js (App Router, server / client components, Next.js APIs) · TypeScript · JavaScript · Vite · Tailwind CSS · Framer Motion · React Router · TanStack Query · Zustand · React Hook Form · Zod · Recharts · Radix UI · shadcn/ui · Axios · Responsive UI development
 - **Databases:** PostgreSQL · Supabase · Redis · MySQL · MongoDB · Firebase / Firestore · Schema design · Migrations / Alembic · Row-level security (RLS) · Indexing & constraints · Query optimization · Transactions & concurrency
 - **Languages:** Python · TypeScript · JavaScript · SQL
 
